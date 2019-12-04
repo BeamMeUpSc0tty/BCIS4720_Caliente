@@ -28,5 +28,16 @@ namespace BCIS4720
         {
 
         }
+
+        protected void RegisterBttn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        /*protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+        {
+
+        }
+    */
     }
 }
