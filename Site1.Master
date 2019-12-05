@@ -7,12 +7,42 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            text-align: center;
+            font-size: medium;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+            <table class="auto-style1">
+                <tr>
+                    <td>
+                        <asp:ImageButton ID="HomePageBttn" runat="server" />
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <table class="auto-style1">
+                            <tr>
+                                <td class="auto-style2">
+                                    <asp:HyperLink ID="HyperLink1" runat="server">Login</asp:HyperLink>
+                                </td>
+                                <td class="auto-style2">
+                                    <asp:HyperLink ID="HyperLink2" runat="server">Register</asp:HyperLink>
+                                </td>
+                                <td class="auto-style2">
+                                    <asp:HyperLink ID="HyperLink3" runat="server">Donation</asp:HyperLink>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
         </div>
     </form>
 </body>

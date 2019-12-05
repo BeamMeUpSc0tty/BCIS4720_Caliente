@@ -15,20 +15,34 @@
         .auto-style3 {
             height: 40px;
         }
+        .auto-style4 {
+            text-align: center;
+        }
+        .auto-style5 {
+            text-align: right;
+        }
+        .auto-style6 {
+            height: 42px;
+            text-align: right;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <table class="auto-style1">
             <tr>
-                <td class="auto-style3"></td>
-                <td class="auto-style3"></td>
-                <td class="auto-style3">O-Life Registration</td>
-                <td class="auto-style3">Links</td>
+                <td class="auto-style3">
+                    <asp:ImageButton ID="ImageButton1" runat="server" />
+                </td>
+                <td class="auto-style3">Enter the following:</td>
+                <td class="auto-style3">
+                    <h1 class="auto-style4">O-Life Registration</h1>
+                </td>
+                <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td>First Name</td>
+                <td class="auto-style5">First Name</td>
                 <td>
                     <asp:TextBox ID="FNametxt" runat="server" Width="300px"></asp:TextBox>
 &nbsp;&nbsp; </td>
@@ -37,41 +51,41 @@
                     </strong></td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>Last Name</td>
-                <td>
+                <td class="auto-style2"></td>
+                <td class="auto-style6">Last Name</td>
+                <td class="auto-style2">
                     <asp:TextBox ID="LNametxt" runat="server" Width="300px"></asp:TextBox>
                 </td>
-                <td>&nbsp; <strong>
+                <td class="auto-style2">&nbsp; <strong>
                     <asp:RequiredFieldValidator ID="LNameValid" runat="server" ControlToValidate="LNametxt" ErrorMessage="Please Enter Your Last Name" ForeColor="Red"></asp:RequiredFieldValidator>
                     </strong></td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td>Year of Birth</td>
+                <td class="auto-style5">Year of Birth</td>
                 <td>
                     <asp:TextBox ID="YOBtxt" runat="server" Width="300px"></asp:TextBox>
                 </td>
                 <td>&nbsp; <strong>
-                    <asp:RequiredFieldValidator ID="YOBValid" runat="server" ErrorMessage="Please Enter Your Birth Year" ForeColor="Red"></asp:RequiredFieldValidator>
-&nbsp;<asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="Please Enter A Valid Birth Year (1900 - 2019)" ForeColor="Red" MaximumValue="2019" MinimumValue="1900"></asp:RangeValidator>
+                    <asp:RequiredFieldValidator ID="YOBValid" runat="server" ErrorMessage="Please Enter Your Birth Year" ForeColor="Red" ControlToValidate="YOBtxt"></asp:RequiredFieldValidator>
+&nbsp;<asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="Please Enter A Valid Birth Year (1900 - 2019)" ForeColor="Red" MaximumValue="2019" MinimumValue="1900" ControlToValidate="YOBtxt"></asp:RangeValidator>
                     </strong></td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td>Email</td>
+                <td class="auto-style5">Email</td>
                 <td>
                     <asp:TextBox ID="Emailtxt" runat="server" Width="300px"></asp:TextBox>
                 </td>
                 <td>&nbsp; <strong>
-                    <asp:RequiredFieldValidator ID="EmailValid" runat="server" ErrorMessage="Please Enter Your Email Address" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="EmailValid" runat="server" ErrorMessage="Please Enter Your Email Address" ForeColor="Red" ControlToValidate="Emailtxt"></asp:RequiredFieldValidator>
 &nbsp;&nbsp;
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="Emailtxt" ErrorMessage="Not A Valid Email Address" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                     </strong></td>
             </tr>
             <tr>
                 <td class="auto-style2"></td>
-                <td class="auto-style2">Password</td>
+                <td class="auto-style6">Password</td>
                 <td class="auto-style2">
                     <asp:TextBox ID="Passtxt" runat="server" TextMode="Password" Width="300px"></asp:TextBox>
                 </td>
@@ -81,21 +95,22 @@
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td>Re-Enter Password</td>
+                <td class="auto-style5">Re-Enter Password</td>
                 <td>
                     <asp:TextBox ID="Passtxt2" runat="server"></asp:TextBox>
                 </td>
                 <td><strong>
-                    <asp:CompareValidator ID="PassCompare" runat="server" ControlToCompare="Passtxt" ControlToValidate="Passtxt2" ErrorMessage="These Are Not The Same Passwords" ForeColor="Red"></asp:CompareValidator>
+                    &nbsp;<asp:CompareValidator ID="PassCompare" runat="server" ControlToCompare="Passtxt" ControlToValidate="Passtxt2" ErrorMessage="These Are Not The Same Passwords" ForeColor="Red"></asp:CompareValidator>
                     </strong></td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="MissingInfo" runat="server" Text="You Forgot Something!"></asp:Label>
-                </td>
+                    &nbsp;</td>
                 <td>&nbsp;</td>
                 <td>
-                    <asp:Button ID="Registerbttn" runat="server" OnClick="Button1_Click" Text="Register!" />
+                    <asp:Button ID="Registerbttn" runat="server" OnClick="RegisterBttn_Click" Text="Register!" />
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="CancelBttn" runat="server" OnClick="Button1_Click" Text="Cancel" />
                 </td>
                 <td>&nbsp;</td>
             </tr>

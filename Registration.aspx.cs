@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
+using System.Data.SqlClient;
 
 /*********************************************************************************************************************************************************
  * For the Registration we are going to need the following fields:
@@ -26,18 +28,41 @@ namespace BCIS4720
 
         protected void RegisterData_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
         {
-
+            //Leave Empyty
         }
 
         protected void RegisterBttn_Click(object sender, EventArgs e)
         {
+            SqlConnection myConnection = new SqlConnection(RegisterData.ConnectionString);
+            SqlCommand myCommand = new SqlCommand(RegisterData.InsertCommand);
 
+            myCommand.Connection = myConnection;
+
+            myCommand.Parameters.AddWithValue("@FName",     FNametxt.Text.Trim());
+            myCommand.Parameters.AddWithValue("@LName",     LNametxt.Text.Trim());
+            myCommand.Parameters.AddWithValue("@YOB",       YOBtxt.Text.Trim());
+            myCommand.Parameters.AddWithValue("@Password",  Passtxt.Text.Trim());
+            myCommand.Parameters.AddWithValue("@Email",     Emailtxt.Text.Trim());
+
+            SqlDataReader myReader;
+
+            myConnection.Open();
+            myReader = myCommand.ExecuteReader(CommandBehavior.CloseConnection);
+            myConnection.Close();
+
+            //Direct to Home Page
+
+            Response.Redirect("Default.aspx");
         }
 
-        /*protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+        protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
         {
 
         }
-    */
+
+        protected void CancelBttn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
