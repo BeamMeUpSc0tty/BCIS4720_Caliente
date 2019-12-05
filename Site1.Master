@@ -34,10 +34,10 @@
                         <table class="auto-style1">
                             <tr>
                                 <td class="auto-style2">
-                                    <asp:HyperLink ID="HyperLink1" runat="server">Login</asp:HyperLink>
+                                    <asp:ImageButton ID="ImageButton1" runat="server" />
                                 </td>
                                 <td class="auto-style2">
-                                    <asp:HyperLink ID="HyperLink2" runat="server">Register</asp:HyperLink>
+                                    <asp:ImageButton ID="ImageButton2" runat="server" />
                                 </td>
                                 <td class="auto-style2">
                                     <asp:HyperLink ID="HyperLink3" runat="server">Donation</asp:HyperLink>
