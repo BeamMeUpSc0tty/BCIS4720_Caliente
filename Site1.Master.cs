@@ -19,5 +19,10 @@ namespace BCIS4720
         {
 
         }
+
+        protected void HomePageBttn_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
     }
 }

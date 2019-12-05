@@ -32,7 +32,7 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style3">
-                    <asp:ImageButton ID="ImageButton1" runat="server" />
+                    <asp:ImageButton ID="HomePageBttn" runat="server" CausesValidation="False" Height="100px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.PNG" OnClick="HomePageBttn_Click" ValidateRequestMode="Disabled" Width="150px" />
                 </td>
                 <td class="auto-style3">Enter the following:</td>
                 <td class="auto-style3">
@@ -110,7 +110,7 @@
                 <td>
                     <asp:Button ID="Registerbttn" runat="server" OnClick="RegisterBttn_Click" Text="Register!" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="CancelBttn" runat="server" OnClick="CancelBttn_Click" Text="Cancel" />
+                    <asp:Button ID="CancelBttn" runat="server" OnClick="CancelBttn_Click" Text="Cancel" CausesValidation="False" />
                 </td>
                 <td>&nbsp;</td>
             </tr>

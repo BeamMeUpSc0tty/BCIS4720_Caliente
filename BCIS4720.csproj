@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Login Page.aspx" />
+    <Content Include="Pictures\Logo.PNG" />
     <Content Include="Registration.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
