@@ -110,7 +110,7 @@
                 <td>
                     <asp:Button ID="Registerbttn" runat="server" OnClick="RegisterBttn_Click" Text="Register!" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="CancelBttn" runat="server" OnClick="Button1_Click" Text="Cancel" />
+                    <asp:Button ID="CancelBttn" runat="server" OnClick="CancelBttn_Click" Text="Cancel" />
                 </td>
                 <td>&nbsp;</td>
             </tr>
