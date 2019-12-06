@@ -15,7 +15,7 @@
 	</script>
 	<!-- Meta tags -->
 	<!--stylesheets-->
-	<link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+	<link href="dona.css" rel='stylesheet' type='text/css' media="all">
 	<!--//style sheet end here-->
 	<link href="//fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet">
 </head>
