@@ -127,7 +127,7 @@
 
 	</div>
 	<div class="copy">
-		<p>&copy;2018 Charity Donation Form. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a></p>
+		<p>&nbsp</p>
 	</div>
 
 </body>
