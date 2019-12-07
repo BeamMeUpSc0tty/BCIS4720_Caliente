@@ -25,6 +25,17 @@
             height: 42px;
             text-align: right;
         }
+        .auto-style7 {
+            height: 40px;
+            width: 346px;
+        }
+        .auto-style8 {
+            width: 346px;
+        }
+        .auto-style9 {
+            height: 42px;
+            width: 346px;
+        }
     </style>
 </head>
 <body>
@@ -35,7 +46,7 @@
                     <asp:ImageButton ID="HomePageBttn" runat="server" CausesValidation="False" Height="100px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.PNG" OnClick="HomePageBttn_Click" ValidateRequestMode="Disabled" Width="150px" />
                 </td>
                 <td class="auto-style3">Enter the following:</td>
-                <td class="auto-style3">
+                <td class="auto-style7">
                     <h1 class="auto-style4">O-Life Registration</h1>
                 </td>
                 <td class="auto-style3">&nbsp;</td>
@@ -43,7 +54,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td class="auto-style5">First Name</td>
-                <td>
+                <td class="auto-style8">
                     <asp:TextBox ID="FNametxt" runat="server" Width="300px"></asp:TextBox>
 &nbsp;&nbsp; </td>
                 <td>&nbsp; <strong>
@@ -53,7 +64,7 @@
             <tr>
                 <td class="auto-style2"></td>
                 <td class="auto-style6">Last Name</td>
-                <td class="auto-style2">
+                <td class="auto-style9">
                     <asp:TextBox ID="LNametxt" runat="server" Width="300px"></asp:TextBox>
                 </td>
                 <td class="auto-style2">&nbsp; <strong>
@@ -63,7 +74,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td class="auto-style5">Year of Birth</td>
-                <td>
+                <td class="auto-style8">
                     <asp:TextBox ID="YOBtxt" runat="server" Width="300px"></asp:TextBox>
                 </td>
                 <td>&nbsp; <strong>
@@ -74,7 +85,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td class="auto-style5">Email</td>
-                <td>
+                <td class="auto-style8">
                     <asp:TextBox ID="Emailtxt" runat="server" Width="300px"></asp:TextBox>
                 </td>
                 <td>&nbsp; <strong>
@@ -86,7 +97,7 @@
             <tr>
                 <td class="auto-style2"></td>
                 <td class="auto-style6">Password</td>
-                <td class="auto-style2">
+                <td class="auto-style9">
                     <asp:TextBox ID="Passtxt" runat="server" TextMode="Password" Width="300px"></asp:TextBox>
                 </td>
                 <td class="auto-style2">&nbsp; <strong>
@@ -96,7 +107,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td class="auto-style5">Re-Enter Password</td>
-                <td>
+                <td class="auto-style8">
                     <asp:TextBox ID="Passtxt2" runat="server"></asp:TextBox>
                 </td>
                 <td><strong>
@@ -107,7 +118,7 @@
                 <td>
                     &nbsp;</td>
                 <td>&nbsp;</td>
-                <td>
+                <td class="auto-style8">
                     <asp:Button ID="Registerbttn" runat="server" OnClick="RegisterBttn_Click" Text="Register!" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Button ID="CancelBttn" runat="server" OnClick="CancelBttn_Click" Text="Cancel" CausesValidation="False" />

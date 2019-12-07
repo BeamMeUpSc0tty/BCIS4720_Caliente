@@ -42,22 +42,22 @@ namespace BCIS4720
         protected global::System.Web.UI.WebControls.ImageButton HomePageBttn;
 
         /// <summary>
-        /// ImageButton1 control.
+        /// LoginBttn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.WebControls.ImageButton LoginBttn;
 
         /// <summary>
-        /// ImageButton2 control.
+        /// RegisterBttn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton2;
+        protected global::System.Web.UI.WebControls.ImageButton RegisterBttn;
 
         /// <summary>
         /// HyperLink3 control.
@@ -67,5 +67,14 @@ namespace BCIS4720
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink HyperLink3;
+
+        /// <summary>
+        /// AboutUsBttn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton AboutUsBttn;
     }
 }

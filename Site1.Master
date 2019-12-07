@@ -18,12 +18,20 @@
         }
         .auto-style3 {
             text-align: center;
+            width: 1117px;
+        }
+        .auto-style4 {
+            text-align: left;
+            font-size: medium;
+            height: 40px;
+            width: 283px;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
+        </div>
             <table class="auto-style1">
                 <tr>
                     <td>
@@ -33,22 +41,23 @@
                     <td>
                         <table class="auto-style1">
                             <tr>
-                                <td class="auto-style2">
-                                    <asp:ImageButton ID="ImageButton1" runat="server" />
+                                <td class="auto-style4">
+                                    <asp:ImageButton ID="LoginBttn" runat="server" Height="50px" ImageUrl="~/Pictures/Login Button.png" Width="300px" />
                                 </td>
-                                <td class="auto-style2">
-                                    <asp:ImageButton ID="ImageButton2" runat="server" />
+                                <td>
+                                    <asp:ImageButton ID="RegisterBttn" runat="server" Height="50px" ImageUrl="~/Pictures/Register.jpg" Width="300px" />
                                 </td>
                                 <td class="auto-style2">
                                     <asp:HyperLink ID="HyperLink3" runat="server">Donation</asp:HyperLink>
                                 </td>
-                                <td class="auto-style2">About Us</td>
+                                <td class="auto-style2">
+                                    <asp:ImageButton ID="AboutUsBttn" runat="server" Height="60px" ImageUrl="~/Pictures/About-Us-Button.png" Width="200px" />
+                                </td>
                             </tr>
                         </table>
                     </td>
                 </tr>
             </table>
-        </div>
     </form>
 </body>
 </html>

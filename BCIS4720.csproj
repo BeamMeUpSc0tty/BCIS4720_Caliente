@@ -71,6 +71,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Donations.aspx" />
     <Content Include="Login Page.aspx" />
+    <Content Include="Pictures\About-Us-Button.png" />
     <Content Include="Pictures\Login Button.png" />
     <Content Include="Pictures\Logo.PNG" />
     <Content Include="Pictures\Logoff.jpg" />
