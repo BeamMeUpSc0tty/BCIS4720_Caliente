@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 /*********************************************************************************************************************************
- * I would like us to have a Login, Register, Donation, About Us
+ * I would like us to have a Login, Register, Donation, About Us, and a success/HomePage2 so it is says the user's name
  * Default our Organization Name/Logo
  * 
  *********************************************************************************************************************************/
