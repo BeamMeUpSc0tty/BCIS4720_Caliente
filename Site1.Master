@@ -42,16 +42,16 @@
                         <table class="auto-style1">
                             <tr>
                                 <td class="auto-style4">
-                                    <asp:ImageButton ID="LoginBttn" runat="server" Height="50px" ImageUrl="~/Pictures/Login Button.png" Width="300px" />
+                                    <asp:ImageButton ID="LoginBttn" runat="server" Height="50px" ImageUrl="~/Pictures/Login Button.png" Width="300px" OnClick="LoginBttn_Click" />
                                 </td>
                                 <td>
-                                    <asp:ImageButton ID="RegisterBttn" runat="server" Height="50px" ImageUrl="~/Pictures/Register.jpg" Width="300px" />
+                                    <asp:ImageButton ID="RegisterBttn" runat="server" Height="50px" ImageUrl="~/Pictures/Register.jpg" Width="300px" OnClick="RegisterBttn_Click" />
                                 </td>
                                 <td class="auto-style2">
-                                    <asp:HyperLink ID="HyperLink3" runat="server">Donation</asp:HyperLink>
+                                    <asp:ImageButton ID="Donatebttn" runat="server" Height="70px" ImageUrl="~/Pictures/Paypal.png" OnClick="Donatebttn_Click" Width="300px" />
                                 </td>
                                 <td class="auto-style2">
-                                    <asp:ImageButton ID="AboutUsBttn" runat="server" Height="60px" ImageUrl="~/Pictures/About-Us-Button.png" Width="200px" />
+                                    <asp:ImageButton ID="AboutUsBttn" runat="server" Height="60px" ImageUrl="~/Pictures/About-Us-Button.png" Width="200px" OnClick="AboutUsBttn_Click" />
                                 </td>
                             </tr>
                         </table>

@@ -75,6 +75,7 @@
     <Content Include="Pictures\Login Button.png" />
     <Content Include="Pictures\Logo.PNG" />
     <Content Include="Pictures\Logoff.jpg" />
+    <Content Include="Pictures\Paypal.png" />
     <Content Include="Pictures\Register.jpg" />
     <Content Include="Registration.aspx" />
     <Content Include="Success.aspx" />

@@ -24,5 +24,25 @@ namespace BCIS4720
         {
             Response.Redirect("Default.aspx");
         }
+
+        protected void LoginBttn_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("Login Page.aspx");
+        }
+
+        protected void RegisterBttn_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("Registration.aspx");
+        }
+
+        protected void AboutUsBttn_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("About Us.aspx");
+        }
+
+        protected void Donatebttn_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("Donations.aspx");
+        }
     }
 }

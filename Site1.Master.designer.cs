@@ -60,13 +60,13 @@ namespace BCIS4720
         protected global::System.Web.UI.WebControls.ImageButton RegisterBttn;
 
         /// <summary>
-        /// HyperLink3 control.
+        /// Donatebttn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink3;
+        protected global::System.Web.UI.WebControls.ImageButton Donatebttn;
 
         /// <summary>
         /// AboutUsBttn control.
