@@ -70,11 +70,16 @@
     <Content Include="About Us.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Donations.aspx" />
+    <Content Include="Events.aspx" />
     <Content Include="Login Page.aspx" />
+    <Content Include="Pictures\37072999015_43c1dcb5ed_o adjusted.jpg" />
+    <Content Include="Pictures\54271-8422182.jpg" />
     <Content Include="Pictures\About-Us-Button.png" />
     <Content Include="Pictures\Login Button.png" />
     <Content Include="Pictures\Logo.PNG" />
     <Content Include="Pictures\Logoff.jpg" />
+    <Content Include="Pictures\matt-hardy-562566-unsplash-1920x960.jpg" />
+    <Content Include="Pictures\oceanwave adj.jpg" />
     <Content Include="Pictures\Paypal.png" />
     <Content Include="Pictures\Register.jpg" />
     <Content Include="Registration.aspx" />
@@ -102,6 +107,13 @@
     </Compile>
     <Compile Include="Donations.aspx.designer.cs">
       <DependentUpon>Donations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login Page.aspx.cs">
       <DependentUpon>Login Page.aspx</DependentUpon>
