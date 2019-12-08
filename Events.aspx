@@ -128,7 +128,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
-                    <td style="background-image: url('Pictures/b90464d27b537e3259c6ca01f0da35eb.jpg')"><span class="newStyle2">Volunteerass="newStyle2">Volunteer<br />
+                    <td style="background-image: url('Pictures/b90464d27b537e3259c6ca01f0da35eb.jpg')"><span class="newStyle2">Volunteer<br />
                         </span>
                         <br />
                         <img alt="" class="auto-style4" src="Pictures/78891970-group-of-volunteer-people-smiling-and-holding-charity-banner.jpg" /><strong><br />

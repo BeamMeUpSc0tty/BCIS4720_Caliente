@@ -335,6 +335,17 @@
     font-weight:600
   }
 }
+        .auto-style3 {
+            width: 256px;
+            height: 199px;
+        }
+        .auto-style4 {
+            color: white;
+            font-family: SignPainter-HouseScript;
+            font-size: 40px;
+            margin-top: 5px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -379,24 +390,26 @@
         
         <div id="sidebar-left">
             
-            <div id = "sid1"> <p class="sid_p"> Mission Statement </p> </div>
-            <div id = "sid2"> <p class="sid_p"> Why do We Care ?  </p> </div>
+            <div id = "sid1"> <p class="auto-style4"> Mission Statement<asp:Image ID="Image1" runat="server" Height="198px" ImageUrl="~/Pictures/5deca763eb0ef.png" Width="214px" />
+&nbsp;</p>
+                <p class="auto-style4"> &nbsp;</p> </div>
+            <div id = "sid2"> <p class="auto-style4"> Why do We Care ?  
+                <img alt="Image result for life below water" class="auto-style3" src="https://i.ytimg.com/vi/pBn8ZCQvFoo/maxresdefault.jpg" /></p>
+                <p class="auto-style4"> &nbsp;</p> </div>
         
         </div>
         <div id="main">
             
             <div id = "content1"> 
-                <p class="main_p">  The oceans are a vital resource for the planet and all its inhabitants.  T
-            he survival and health of our oceans is at the forefront of O-Life mission.  
-            We strive to reduce oceanic pollution and seek opportunities for Life Below Water through research, education and informative discussions.  
-                </p>
+                <p class="main_p">  The oceans are a vital resource for the planet and all its inhabitants.  The survival and health of our oceans is at the forefront of O-Life mission.  
+            We strive to reduce oceanic pollution and seek opportunities for Life Below Water through research, education and informative discussions. </p>
             </div>
             
             <div id = "content2">
                  <p class="main_p"> Our planet surface is made of about 71% water. 
             Ocean wildlife has declined by half in less than a human generation.
             Having more than 50% living near the shore and our fast-growing population, 
-            we couldn’t be more dependent on our oceans. We not only need to help our oceans thrive; 
+            we could not be more dependent on our oceans. We not only need to help our oceans thrive; 
             they are also in dire need of our protection. 
                  </p>
             </div>
@@ -425,16 +438,13 @@
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by 
-             <a href="site1.master">O-life</a>.
+             <a href="site1.
             </p>
          </div>
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              <li></li>
             </ul>
           </div>
                         
