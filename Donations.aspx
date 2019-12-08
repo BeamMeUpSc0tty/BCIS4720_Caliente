@@ -658,6 +658,8 @@ a {
 
 			<div class="btnn">
 				<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Donate" Width="719px" />
+                <br />
+                <asp:Button ID="Button2" runat="server" CausesValidation="False" OnClick="Button2_Click" Text="Button" Width="718px" />
                 <br>
 			</div>
 
