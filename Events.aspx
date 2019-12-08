@@ -64,7 +64,34 @@
             color: #003399;
         }
         .auto-style11 {
+            font-size: large;
             background-color: #FFFF66;
+        }
+ p.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	}
+        .newStyle5 {
+            font-family: Castellar;
+            font-size: x-large;
+        }
+        .newStyle6 {
+            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        }
+        .newStyle7 {
+            font-family: "Cooper Black";
+        }
+        .auto-style12 {
+            font-size: x-large;
+            color: #0033CC;
+        }
+        .auto-style13 {
+            color: #3366FF;
         }
     </style>
 </head>
@@ -88,7 +115,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
                         <img alt="" class="auto-style5" src="Pictures/4a491f809af716c1a9cf3c62df0f9d08.jpg" /><br />
                         <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <br />
+                        <span class="newStyle7"><strong><span class="auto-style12"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Plastics and trash in the ocean are a major threat to the</em></span><em><br class="auto-style12" />
+                        </em><span class="auto-style12"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; health of wildlife, local economies and people. </em></span><em>
+                        <br class="auto-style12" />
+                        </em><span class="auto-style12"><em>&nbsp;Help us solve this problem by joining us and volunteer for our </em></span></strong></span><em>
+                        <br class="auto-style13" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="newStyle7"><strong><span class="auto-style12">cleanup event.</span></strong></span></em><br />
                         <br />
                         <br />
                         <br />
@@ -97,7 +131,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
-                    <td style="background-image: url('Pictures/b90464d27b537e3259c6ca01f0da35eb.jpg')"><span class="newStyle2">Volunteer<br />
+                    <td style="background-image: url('Pictures/b90464d27b537e3259c6ca01f0da35eb.jpg')"><span class="newStyle2">Volunteerass="newStyle2">Volunteer<br />
                         </span>
                         <br />
                         <img alt="" class="auto-style4" src="Pictures/78891970-group-of-volunteer-people-smiling-and-holding-charity-banner.jpg" /><strong><br />
@@ -111,6 +145,7 @@
                         <br />
                         <br />
                         <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <img class="auto-style6" src="Pictures/large_nbJp_5lGwzfjLGSOKCBcBI5dgrlsMlbhL0Pr-L_GLOs.jpg" /><br />
                         <br />
                         <br />
