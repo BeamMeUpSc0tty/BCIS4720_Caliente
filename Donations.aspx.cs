@@ -18,5 +18,13 @@ namespace BCIS4720
         {
             Response.Redirect("Default.aspx");
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Write("Your Donation has been Accepted");
+        }
+
+        
+
     }
 }

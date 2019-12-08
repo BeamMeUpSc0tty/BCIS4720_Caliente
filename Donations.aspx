@@ -485,12 +485,10 @@ a {
                 </td>   
             </tr>
            </table>
-     </form>
         
     <h1 class="header-w3ls"> DONATION FORM </h1>
 
 	<div class="Donation-main-w3ls">
-		<form action="#" method="post">
 			<div class="main">
 				<div class="form-left-to-w3l">
 
@@ -584,7 +582,8 @@ a {
                         
     <div class="form-left-to-w3l">
 
-        <input type="text" class="card-number" placeholder="Card Number">
+        &nbsp;<asp:TextBox ID="TextBox1" runat="server" Height="45px" ToolTip="Credit Card Number" Width="480px">Credit Card Number</asp:TextBox>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBox1" ErrorMessage="Invalid Credit Card Number" ForeColor="Red" ValidationExpression="\d{16}"></asp:RegularExpressionValidator>
         <div class="clear"></div>
      </div>                    
    
@@ -628,7 +627,8 @@ a {
                             
                             
      <div class="form-left-to-w3l">
-        <input type="text" placeholder="CVV">
+        &nbsp;<asp:TextBox ID="TextBox2" runat="server" ToolTip="CSV" >CSV</asp:TextBox>
+         <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="Invalid CSV" ValidationExpression="\d{3}" ForeColor="Red"></asp:RegularExpressionValidator>
      </div>
                             
                             
@@ -657,9 +657,9 @@ a {
 			</div>
 
 			<div class="btnn">
-				<button type="submit"> DONATE </button><br>
+				<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Donate" Width="719px" />
+                <br>
 			</div>
-		</form>
 
 
 		<div class="clear"></div>
@@ -667,6 +667,8 @@ a {
 
 
 	</div>
+     </form>
+        
 	<div class="copy">
 		<p>&nbsp</p>
 	</div>
