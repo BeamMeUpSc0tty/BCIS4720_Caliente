@@ -35,5 +35,10 @@ namespace BCIS4720
         {
             Response.Redirect("About Us.aspx");
         }
+
+        protected void LogoffBttn_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("Deafult.aspx");
+        }
     }
 }

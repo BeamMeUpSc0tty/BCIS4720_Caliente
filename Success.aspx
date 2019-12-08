@@ -25,6 +25,10 @@
             font-size: medium;
             height: 40px;
         }
+        .float-lt{float:left;}
+        .auto-style5 {
+            width: 19px;
+        }
         </style>
 </head>
 <body>
@@ -43,8 +47,9 @@
                                 <td class="auto-style4">
                                     <asp:Label ID="Welcomelbl" runat="server"></asp:Label>
                                 </td>
-                                <td>
-                                    &nbsp;</td>
+                                <td class="auto-style5">
+                                    <asp:ImageButton ID="LogoffBttn" runat="server" Height="150px" ImageUrl="~/Pictures/Logoff.jpg" OnClick="LogoffBttn_Click" Width="150px" />
+                                </td>
                                 <td class="auto-style2">
                                     <asp:ImageButton ID="Donatebttn" runat="server" Height="70px" ImageUrl="~/Pictures/Paypal.png" OnClick="Donatebttn_Click" Width="300px" />
                                 </td>
