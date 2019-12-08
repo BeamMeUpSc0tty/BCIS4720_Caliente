@@ -347,7 +347,7 @@
                             <tr>
                                     
                                 <td class="logoImg">
-                                    <asp:ImageButton ID="HomePageBttn" runat="server" Height="90px" ImageUrl="~/Pictures/Logo.PNG" OnClick="HomePageBttn_Click" Width="125px"  />
+                                    <asp:ImageButton ID="HomePageBttn" runat="server" Height="90px" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" Width="125px"  />
                                 </td>
                                 <td class="nav-center">
                                     <asp:ImageButton ID="LoginBttn" runat="server" Height="40px" ImageUrl="~/Pictures/Login Button.png" Width="40px" OnClick="LoginBttn_Click" />
@@ -362,8 +362,8 @@
                                      <p class="auto-style2"> Donate </p>
                                 </td>
                                 <td class="nav-center">
-                                    <asp:ImageButton ID="Eventbttn" runat="server" Height="60px" ImageUrl="~/Pictures/event.jpg" OnClick="Eventbttn_Click" Width="60px" />
-                                     <p class="auto-style2"> Event </p>
+                                    <asp:ImageButton ID="Eventbttn" runat="server" Height="60px" ImageUrl="~/Pictures/event-icon-dsbr-91x100.png" OnClick="Eventbttn_Click" Width="60px" />
+                                     <p class="auto-style2"> Events </p>
                                 </td>
                                 <td class="about">
                                     <asp:ImageButton ID="AboutUsBttn" runat="server" Height="50px" ImageUrl="~/Pictures/About-Us-Button.png" Width="247px" OnClick="AboutUsBttn_Click" />
