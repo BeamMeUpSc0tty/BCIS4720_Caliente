@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login Page.aspx.cs" Inherits="BCIS4720.Login_Page" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login Page.aspx.cs" Inherits="BCIS4720.Login_Page" %>
 
 <!DOCTYPE html>
 
@@ -15,6 +15,57 @@
         .auto-style4 {
             text-align: left;
         }
+            
+            
+            
+        .reg_p {
+            color: #313238;
+            font-family: SignPainter-HouseScript;
+            font-size: 30px;          
+            }
+            
+        h1 {
+            color: #313238;
+            font-family: SignPainter-HouseScript;
+            font-size: 40px;          
+         }
+        
+        #usernameTXT, #PasswordTXT {
+                height: 20px;
+                border: 1.5px solid #26b7ff;
+                -moz-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                -webkit-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+                margin-top:10px;
+        
+        }
+            
+                    
+        #Login, #CreateAccount {
+             background-color: white; 
+             border: 1.5px solid #26b7ff;
+             color: #26b7ff;
+             padding: 15px 32px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 25px;
+             font-family : SignPainter-HouseScript
+         }
+        
+            
+           #Login:hover, #CreateAccount:hover {
+             background-color: #26b7ff; 
+             border: 1.5px solid #26b7ff;
+             color: white;
+             padding: 15px 32px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 25px;
+             font-family : SignPainter-HouseScript;
+         }
+        
     </style>
 </head>
 <body>
@@ -31,7 +82,7 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">Username (email)</td>
+                <td class="reg_p">Username (email)</td>
                 <td>
                     <asp:TextBox ID="usernameTXT" runat="server" TextMode="Email" Width="430px"></asp:TextBox>
                     &nbsp;&nbsp;
@@ -43,7 +94,7 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">Password</td>
+                <td class="reg_p">Password</td>
                 <td>
                     <asp:TextBox ID="PasswordTXT" runat="server" TextMode="Password" Width="430px"></asp:TextBox>
                     &nbsp;&nbsp;
