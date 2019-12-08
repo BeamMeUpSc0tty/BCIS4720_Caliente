@@ -10,10 +10,6 @@
             width: 100%;
             height: 70px;
         }
-        .auto-style2 {
-            width: 104px;
-            height: 63px;
-        }
         .auto-style3 {
             width: 128px;
         }
@@ -74,7 +70,8 @@
             <table cellpadding="0" cellspacing="0" class="auto-style1">
                 <tr>
                     <td class="auto-style3">
-                        <img alt="" class="auto-style2" src="Pictures/Logo.jpg" /></td>
+                        <asp:ImageButton ID="ImageButton1" runat="server" Height="100px" ImageUrl="~/Pictures/Logo.jpg" OnClick="ImageButton1_Click" Width="150px" />
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
