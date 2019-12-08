@@ -17,7 +17,7 @@ namespace BCIS4720
             }
             else
             {
-                Response.Redirect("Login Page.aspx");
+                //Response.Redirect("Login Page.aspx");
             }
         }
 

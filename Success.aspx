@@ -12,7 +12,7 @@
         }
         .auto-style3 {
             text-align: center;
-            width: 5607px;
+            width: 5636px;
         }
         .auto-style4 {
             text-align: left;
@@ -45,7 +45,7 @@
         }
         .auto-style9 {
             text-align: left;
-            width: 5607px;
+            width: 5636px;
         }
         .auto-style10 {
             width: 552px;
@@ -59,7 +59,7 @@
         }
         .auto-style13 {
             text-align: center;
-            width: 5607px;
+            width: 5636px;
             height: 62px;
         }
         .auto-style14 {
@@ -89,7 +89,7 @@
         }
         .auto-style18 {
             text-align: center;
-            width: 5607px;
+            width: 5636px;
             height: 603px;
         }
         .auto-style19 {
@@ -143,12 +143,12 @@
                 <tr>
                     <td class="auto-style11">
                         &nbsp;</td>
-                    <td class="auto-style9"><span class="newStyle1">Get More Involved<br />
+                    <td class="auto-style9"><span class="newStyle1"><strong>Get More Involved!</strong><br />
                         </span>
                         <br />
                         <br />
                         <br />
-                        <img alt="" class="auto-style15" src="Pictures/coastal-cleanup-2.jpg" />&nbsp;&nbsp;&nbsp;
+                        <img alt="" class="auto-style15" src="Pictures/coastal-cleanup-2.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;
                         <img alt="" class="auto-style16" src="Pictures/volunteers-cleaning-up-ocean-underwater.jpg" /><br />
                         <br />
                         <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -172,7 +172,7 @@
                     </td>
                     <td class="auto-style18" style="background-image: url('Pictures/oceanwave adj.jpg'); background-position: center center">
                         <br />
-                        <span class="newStyle3"><strong><span class="auto-style20">One Ocean One life</span></strong></span></td>
+                        <span class="newStyle3"><strong><span class="auto-style20"><em>One Ocean One life...</em></span></strong></span></td>
                     <td class="auto-style19">
                     </td>
                 </tr>
