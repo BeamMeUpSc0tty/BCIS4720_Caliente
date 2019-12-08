@@ -73,7 +73,7 @@
         <table cellpadding="0" cellspacing="0" class="auto-style1">
             <tr>
                 <td class="auto-style3">
-                        <asp:ImageButton ID="HomePageBttn" runat="server" Height="100px" ImageUrl="~/Pictures/Logo.PNG" OnClick="HomePageBttn_Click" Width="150px" CausesValidation="False" />
+                        <asp:ImageButton ID="HomePageBttn" runat="server" Height="100px" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" Width="150px" CausesValidation="False" />
                     </td>
                 <td class="auto-style4">
                     <h1>Login Page<br />
