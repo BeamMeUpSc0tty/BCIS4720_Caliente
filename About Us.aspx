@@ -207,7 +207,9 @@
         <div>
             <table cellpadding="0" cellspacing="0" class="auto-style1">
                 <tr>
-                    <td class="auto-style7"></td>
+                    <td class="auto-style7">
+                        <asp:ImageButton ID="HomePageBttn" runat="server" Height="100px" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" Width="150px" CausesValidation="False" />
+                    </td>
                     <td class="auto-style3" style="background-image: url('Pictures/37072999015_43c1dcb5ed_o adjusted.jpg'); background-position: 298px -600px"></td>
                     <td class="auto-style13"></td>
                 </tr>
