@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Donations.aspx.cs" Inherits="BCIS4720.Donations" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Donations.aspx.cs" Inherits="BCIS4720.Donations" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -473,14 +473,14 @@ select.form-control, .form-left-to-w3l input[type="text"], .form-right-to-w3ls i
 </head>
 
 <body>
+	<form id="form1" runat="server">
 	<h1 class="header-w3ls">
             
-        <img src="Pictures/Logo.PNG" style="height:100px;width:150px;">
+        &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="90px" ImageUrl="~/Pictures/Logo.jpg" Width="125px" />
 		Donation Form </h1>
 
 
 	<div class="Donation-main-w3ls">
-		<form action="#" method="post">
 			<div class="main">
 				<div class="form-left-to-w3l">
 
@@ -554,12 +554,12 @@ select.form-control, .form-left-to-w3l input[type="text"], .form-right-to-w3ls i
 					<select class="form-control buttom">
 												<option value="">
 												Donation Amount</option>
-													<option value="category2">50$</option>
-													<option value="category1">100$</option>
-													<option value="category3">150$</option>
-                                                    <option value="category4">200$</option>
-                                                    <option value="category5">250$</option>
-                                                    <option value="category6">300$</option>
+													<option value="category1">$50</option>
+                                                    <option value="category2">$100</option>
+													<option value="category3">$150</option>
+                                                    <option value="category4">$200</option>
+                                                    <option value="category5">$250</option>
+                                                    <option value="category6">$300</option>
 				
 												</select>
 				</div>
@@ -573,9 +573,8 @@ select.form-control, .form-left-to-w3l input[type="text"], .form-right-to-w3ls i
 			</div>
 
 			<div class="btnn">
-				<button type="submit"> DONATE </button><br>
+				<button type="submit"> DONATE/button><br>
 			</div>
-		</form>
 
 
 		<div class="clear"></div>
@@ -586,6 +585,8 @@ select.form-control, .form-left-to-w3l input[type="text"], .form-right-to-w3ls i
 	<div class="copy">
 		<p>&nbsp</p>
 	</div>
+
+    </form>
 
 </body>
 
