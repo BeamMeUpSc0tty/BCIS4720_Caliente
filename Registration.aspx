@@ -114,7 +114,7 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style3">
-                    <asp:ImageButton ID="HomePageBttn" runat="server" CausesValidation="False" Height="100px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" ValidateRequestMode="Disabled" Width="150px" />
+                    <asp:ImageButton ID="HomePageBttn" runat="server" CausesValidation="False" Height="90px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" ValidateRequestMode="Disabled" Width="125px" />
                 </td>
                 <td class="reg_p">Enter the following:</td>
                 <td class="auto-style7">

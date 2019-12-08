@@ -481,7 +481,7 @@ a {
         <table class="auto-style1">
             <tr>
                 <td class="auto-style3">
-                    <asp:ImageButton ID="HomeBttn" runat="server" CausesValidation="False" Height="120px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomeBttn_Click" ValidateRequestMode="Disabled" Width="170px" />
+                    <asp:ImageButton ID="HomeBttn" runat="server" CausesValidation="False" Height="90px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomeBttn_Click" ValidateRequestMode="Disabled" Width="125px" />
                 </td>   
             </tr>
            </table>

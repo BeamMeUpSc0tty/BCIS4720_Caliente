@@ -32,7 +32,7 @@
         }
         .auto-style8 {
             font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-            font-size: x-large;
+            font-size: xx-large;
             color: #000080;
         }
         .newStyle2 {
@@ -89,6 +89,9 @@
         .auto-style13 {
             color: #3366FF;
         }
+        .auto-style14 {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -97,17 +100,19 @@
             <table cellpadding="0" cellspacing="0" class="auto-style1">
                 <tr>
                     <td class="auto-style3">
-                        <asp:ImageButton ID="ImageButton1" runat="server" Height="100px" ImageUrl="~/Pictures/Logo.jpg" OnClick="ImageButton1_Click" Width="150px" />
+                        <asp:ImageButton ID="ImageButton1" runat="server" Height="90px" ImageUrl="~/Pictures/Logo.jpg" OnClick="ImageButton1_Click" Width="125px" />
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
-                    <td><span class="auto-style8"><strong>Events</strong></span><br />
+                    <td class="auto-style14">
+                        <h1 class="auto-style8"><strong>&nbsp; Events</strong></h1>
                         <br />
                         <br />
-                        <span class="auto-style10"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style11">COMING SOON!</span></strong></span><br />
+                        <br />
+                        <span class="auto-style10"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<span class="auto-style11">COMING SOON!</span></strong></span><br />
                         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;
                         <img alt="" class="auto-style5" src="Pictures/4a491f809af716c1a9cf3c62df0f9d08.jpg" /><br />

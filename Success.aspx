@@ -113,7 +113,7 @@
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style12">
-                        <asp:ImageButton ID="HomePageBttn" runat="server" Height="84px" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" Width="150px" />
+                        <asp:ImageButton ID="HomePageBttn" runat="server" Height="90px" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" Width="125px" />
                     </td>
                     <td class="auto-style13"></td>
                     <td class="auto-style14">
