@@ -73,8 +73,12 @@
     <Content Include="Events.aspx" />
     <Content Include="Login Page.aspx" />
     <Content Include="Pictures\37072999015_43c1dcb5ed_o adjusted.jpg" />
+    <Content Include="Pictures\4a491f809af716c1a9cf3c62df0f9d08.jpg" />
     <Content Include="Pictures\54271-8422182.jpg" />
+    <Content Include="Pictures\78891970-group-of-volunteer-people-smiling-and-holding-charity-banner.jpg" />
     <Content Include="Pictures\About-Us-Button.png" />
+    <Content Include="Pictures\coastal-cleanup-2.jpg" />
+    <Content Include="Pictures\large_nbJp_5lGwzfjLGSOKCBcBI5dgrlsMlbhL0Pr-L_GLOs.jpg" />
     <Content Include="Pictures\Login Button.png" />
     <Content Include="Pictures\Logo.jpg" />
     <Content Include="Pictures\Logoff.jpg" />
@@ -82,6 +86,7 @@
     <Content Include="Pictures\oceanwave adj.jpg" />
     <Content Include="Pictures\Paypal.png" />
     <Content Include="Pictures\Register.jpg" />
+    <Content Include="Pictures\volunteers-cleaning-up-ocean-underwater.jpg" />
     <Content Include="Registration.aspx" />
     <Content Include="Success.aspx" />
     <Content Include="Web.config" />

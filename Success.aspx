@@ -12,7 +12,7 @@
         }
         .auto-style3 {
             text-align: center;
-            width: 972px;
+            width: 5607px;
         }
         .auto-style4 {
             text-align: left;
@@ -43,6 +43,67 @@
         .auto-style8 {
             width: 96%;
         }
+        .auto-style9 {
+            text-align: left;
+            width: 5607px;
+        }
+        .auto-style10 {
+            width: 552px;
+        }
+        .auto-style11 {
+            width: 302px;
+        }
+        .auto-style12 {
+            width: 302px;
+            height: 62px;
+        }
+        .auto-style13 {
+            text-align: center;
+            width: 5607px;
+            height: 62px;
+        }
+        .auto-style14 {
+            width: 552px;
+            height: 62px;
+        }
+        .newStyle1 {
+            font-family: Algerian;
+            font-size: x-large;
+            color: #006666;
+        }
+        .newStyle2 {
+            color: #000099;
+            font-size: large;
+        }
+        .auto-style15 {
+            width: 375px;
+            height: 269px;
+        }
+        .auto-style16 {
+            width: 367px;
+            height: 263px;
+        }
+        .auto-style17 {
+            width: 302px;
+            height: 603px;
+        }
+        .auto-style18 {
+            text-align: center;
+            width: 5607px;
+            height: 603px;
+        }
+        .auto-style19 {
+            width: 552px;
+            height: 603px;
+        }
+        .newStyle3 {
+            font-size: xx-large;
+            color: #FFFFFF;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        }
+        .auto-style20 {
+            background-color: #000000;
+        }
         </style>
 </head>
 <body>
@@ -51,11 +112,11 @@
         </div>
             <table class="auto-style1">
                 <tr>
-                    <td>
-                        <asp:ImageButton ID="HomePageBttn" runat="server" Height="100px" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" Width="150px" />
+                    <td class="auto-style12">
+                        <asp:ImageButton ID="HomePageBttn" runat="server" Height="84px" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" Width="150px" />
                     </td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td>
+                    <td class="auto-style13"></td>
+                    <td class="auto-style14">
                         <table class="auto-style8">
                             <tr>
                                 <td class="auto-style4">
@@ -78,6 +139,49 @@
                             </tr>
                         </table>
                     </td>
+                </tr>
+                <tr>
+                    <td class="auto-style11">
+                        &nbsp;</td>
+                    <td class="auto-style9"><span class="newStyle1">Get More Involved<br />
+                        </span>
+                        <br />
+                        <br />
+                        <br />
+                        <img alt="" class="auto-style15" src="Pictures/coastal-cleanup-2.jpg" />&nbsp;&nbsp;&nbsp;
+                        <img alt="" class="auto-style16" src="Pictures/volunteers-cleaning-up-ocean-underwater.jpg" /><br />
+                        <br />
+                        <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="newStyle2" NavigateUrl="~/Events.aspx">Events</asp:HyperLink>
+                        </strong>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>
+                        <br />
+                        <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>
+                        <br />
+                    </td>
+                    <td class="auto-style10">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style17">
+                    </td>
+                    <td class="auto-style18" style="background-image: url('Pictures/oceanwave adj.jpg'); background-position: center center">
+                        <br />
+                        <span class="newStyle3"><strong><span class="auto-style20">One Ocean One life</span></strong></span></td>
+                    <td class="auto-style19">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style11">
+                        &nbsp;</td>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style10">
+                        &nbsp;</td>
                 </tr>
             </table>
 

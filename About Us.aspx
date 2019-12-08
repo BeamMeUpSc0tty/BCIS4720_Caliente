@@ -12,18 +12,12 @@
         }
         .auto-style3 {
             width: 972px;
-            height: 36px;
-        }
+            }
         .auto-style5 {
             width: 972px;
             text-align: center;
             height: 199px;
             background-color: #26b7ff;
-        }
-        .auto-style7 {
-            width: 139px;
-            height: 36px;
-            background-color: #FFFFFF;
         }
         .auto-style9 {
             width: 972px;
@@ -37,7 +31,6 @@
             color: #26b7ff;
         }
         .auto-style13 {
-            height: 36px;
             width: 128px;
         }
         .auto-style14 {
@@ -224,7 +217,7 @@
         <div>
             <table cellpadding="0" cellspacing="0" class="auto-style1">
                 <tr>
-                    <td class="auto-style7">
+                    <td class="auto-style41">
                         <asp:ImageButton ID="HomePageBttn" runat="server" Height="100px" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" Width="150px" CausesValidation="False" />
                     </td>
                     <td class="auto-style3" style="background-image: url('Pictures/37072999015_43c1dcb5ed_o adjusted.jpg'); background-position: 298px -600px"></td>
