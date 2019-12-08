@@ -15,16 +15,6 @@
         .auto-style3 {
             height: 40px;
         }
-        .auto-style4 {
-            text-align: center;
-        }
-        .auto-style5 {
-            text-align: right;
-        }
-        .auto-style6 {
-            height: 42px;
-            text-align: right;
-        }
         .auto-style7 {
             height: 40px;
             width: 346px;
@@ -189,7 +179,7 @@
                 <td>&nbsp;</td>
                 <td class="reg_p">Re-Enter Password</td>
                 <td class="auto-style8">
-                    <asp:TextBox ID="Passtxt2" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Passtxt2" runat="server" TextMode="Password" Width="302px"></asp:TextBox>
                 </td>
                 <td><strong>
                     &nbsp;<asp:CompareValidator ID="PassCompare" runat="server" ControlToCompare="Passtxt" ControlToValidate="Passtxt2" ErrorMessage="These Are Not The Same Passwords" ForeColor="Red"></asp:CompareValidator>

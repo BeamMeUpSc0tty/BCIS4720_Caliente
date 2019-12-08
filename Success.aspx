@@ -12,13 +12,13 @@
         }
         .auto-style3 {
             text-align: center;
-            width: 5636px;
+            width: 5083px;
         }
         .auto-style4 {
             text-align: left;
             font-size: medium;
             height: 40px;
-            width: 516px;
+            width: 579px;
         }
         .auto-style2 {
             text-align: center;
@@ -45,7 +45,7 @@
         }
         .auto-style9 {
             text-align: left;
-            width: 5636px;
+            width: 5083px;
         }
         .auto-style10 {
             width: 552px;
@@ -59,7 +59,7 @@
         }
         .auto-style13 {
             text-align: center;
-            width: 5636px;
+            width: 5083px;
             height: 62px;
         }
         .auto-style14 {
@@ -89,7 +89,7 @@
         }
         .auto-style18 {
             text-align: center;
-            width: 5636px;
+            width: 5083px;
             height: 603px;
         }
         .auto-style19 {
