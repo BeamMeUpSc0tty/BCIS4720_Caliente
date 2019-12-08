@@ -108,7 +108,7 @@
                 <td>&nbsp;</td>
                 <td class="auto-style5">Re-Enter Password</td>
                 <td class="auto-style8">
-                    <asp:TextBox ID="Passtxt2" runat="server" TextMode="Password"></asp:TextBox>
+                    <asp:TextBox ID="Passtxt2" runat="server"></asp:TextBox>
                 </td>
                 <td><strong>
                     &nbsp;<asp:CompareValidator ID="PassCompare" runat="server" ControlToCompare="Passtxt" ControlToValidate="Passtxt2" ErrorMessage="These Are Not The Same Passwords" ForeColor="Red"></asp:CompareValidator>

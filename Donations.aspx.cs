@@ -13,10 +13,5 @@ namespace BCIS4720
         {
 
         }
-
-        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
-        {
-            Response.Redirect("Default.aspx");
-        }
     }
 }
