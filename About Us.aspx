@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="About Us.aspx.cs" Inherits="BCIS4720.About_Us" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="About Us.aspx.cs" Inherits="BCIS4720.About_Us" %>
 
 <!DOCTYPE html>
 
@@ -18,7 +18,7 @@
             width: 972px;
             text-align: center;
             height: 199px;
-            background-color: #0099CC;
+            background-color: #26b7ff;
         }
         .auto-style7 {
             width: 139px;
@@ -34,7 +34,7 @@
         }
         .auto-style10 {
             text-decoration: underline;
-            color: #003366;
+            color: #26b7ff;
         }
         .auto-style13 {
             height: 36px;
@@ -54,13 +54,13 @@
             font-size: x-large;
         }
         .auto-style16 {
-            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-            font-size: x-large;
-            color: #FFFFFF;
+            font-family: SignPainter-HouseScript;
+            font-size: 30px;
+            color: white;
         }
         .newStyle3 {
             font-size: medium;
-            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            font-family: ;
         }
         .auto-style17 {
             width: 972px;
@@ -68,32 +68,35 @@
             background-color: #FFFFFF;
         }
         .newStyle4 {
-            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
             font-size: x-large;
         }
         .auto-style20 {
-            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-            font-size: x-large;
-            color: #003399;
+            font-family: SignPainter-HouseScript;
+            font-size: 40px;
+            color: #26b7ff;
         }
         .auto-style21 {
-            color: #003366;
+            color: #26b7ff;
         }
         .auto-style22 {
-            color: #000066;
+            color: black;
         }
         .newStyle5 {
+            color:black;
             font-size: x-large;
         }
         .auto-style23 {
-            color: #FFFFFF;
-            background-color: #3366CC;
+            font-family: SignPainter-HouseScript;
+            font-size:30px;
+            background : none;
+            color : #26b7ff;
         }
         .auto-style25 {
             width: 972px;
             height: 56px;
             text-align: center;
-            background-color: #0099CC;
+            background-color: #26b7ff;
         }
         .newStyle6 {
             font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -110,13 +113,13 @@
             color: #FFFFFF;
         }
         .auto-style27 {
-            background-color: #FFFFFF;
+            background-color: #26b7ff;
         }
         .newStyle9 {
             font-size: large;
         }
         .auto-style28 {
-            font-size: large;
+            font-size: 40px;
             background-color: #FFFFFF;
         }
         .auto-style29 {
@@ -135,7 +138,7 @@
         .newStyle11 {
             font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
             font-size: x-large;
-            color: #000080;
+            color: black;
         }
         .newStyle12 {
             font-size: large;
@@ -162,8 +165,8 @@
             background-color: #0099CC;
         }
         .auto-style33 {
-            color: #000099;
-            background-color: #0099CC;
+            color: black;
+    
         }
         .auto-style34 {
             width: 352px;
@@ -175,7 +178,7 @@
         .auto-style36 {
             width: 128px;
             height: 344px;
-            background-color: #0099CC;
+            background-color: white;
         }
         .auto-style37 {
             width: 128px;
@@ -189,7 +192,7 @@
         .auto-style39 {
             width: 139px;
             height: 344px;
-            background-color: #0099CC;
+            background-color: white;
         }
         .auto-style40 {
             width: 139px;
@@ -199,7 +202,21 @@
         .auto-style41 {
             width: 139px;
             background-color: #FFFFFF;
+            
         }
+            
+            
+        a {
+          color: #26b7ff;
+          font-family: SignPainter-HouseScript;
+          text-decoration: none;
+          font-size:large;
+        }
+
+         a:hover {
+        text-decoration: underline;
+         }
+            
     </style>
 </head>
 <body>
@@ -244,15 +261,25 @@
                         <br />
                         <br />
                         <br />
-                        <span class="auto-style10"><a href="https://www.linkedin.com/in/scott-henkel/">Scott Henkel</a></span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Welda Igouwe</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Monica Ngwira</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Sadaf Riaz</span><br />
+                        <span class="auto-style10">Scott Henkel</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Welda Igouwe</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Monica Ngwira</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Sadaf Riaz</span><br />
                         <strong><span class="auto-style22">Head Coordinator&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Education Supervisor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Field Engineer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Operations Manager</span><br class="auto-style22" />
                         <br />
                         <br />
                         <br />
                         <br />
                         <br />
-                        </strong></td>
-                    <td class="auto-style36"></td>
+                        </strong>
+                        
+                                        
+                        <strong>
+                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style28" NavigateUrl="~/Registration.aspx">Join our team - Here </asp:HyperLink>
+                        </strong>
+                       
+                        </td>
+                    <td class="auto-style36">
+                        
+                     </td>
+                    
                 </tr>
                 <tr>
                     <td class="auto-style40"></td>
@@ -287,11 +314,9 @@
                         <br />
                         <strong><span class="newStyle8"><span class="auto-style29">Join us in sharing knowledge </span>
                         <br class="auto-style29" />
-                        <span class="auto-style29">on protecting our oceans today and make an impact!</span></span></strong><span class="newStyle7"><br />
+                        <span class="auto-style29">on protecting our oceans today and make an impact!</span></span></strong><span class="newStyle7"> <br />
                         <br />
-                        </span><strong>
-                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style28" NavigateUrl="~/Registration.aspx">Join our team</asp:HyperLink>
-                        </strong><span class="newStyle1">
+                        </span><span class="newStyle1">
                         <br class="auto-style27" />
                         <br />
                         <br />
