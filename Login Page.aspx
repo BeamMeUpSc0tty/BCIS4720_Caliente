@@ -86,11 +86,11 @@
                 <td>
                     <asp:TextBox ID="usernameTXT" runat="server" TextMode="Email" Width="430px"></asp:TextBox>
                     &nbsp;&nbsp;
+                    <asp:RequiredFieldValidator ID="UserValid" runat="server" BorderColor="#CC0000" ControlToValidate="usernameTXT" ErrorMessage="Invalid Username" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="usernameTXT" ErrorMessage="This is not an email address" ForeColor="#CC0000" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:RequiredFieldValidator ID="UserValid" runat="server" BorderColor="#CC0000" ControlToValidate="usernameTXT" ErrorMessage="Not a valid Username" ForeColor="#CC0000"></asp:RequiredFieldValidator>
-                </td>
+                    </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
@@ -118,7 +118,7 @@
             </SelectParameters>
         </asp:SqlDataSource>
                     <asp:Button ID="Login" runat="server" Text="Login" Width="200px" OnClick="Login_Click" />
-                    <asp:Button ID="CreateAccount" runat="server" Text="Create an Account" Width="200px" CausesValidation="False" OnClick="CreateAccount_Click" />
+                    <asp:Button ID="CreateAccount" runat="server" Text="Create an Account" Width="335px" CausesValidation="False" OnClick="CreateAccount_Click" />
     </form>
 </body>
 </html>
