@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="BCIS4720.Registration" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="BCIS4720.Registration" %>
 
 <!DOCTYPE html>
 
@@ -31,11 +31,92 @@
         }
         .auto-style8 {
             width: 346px;
+            
         }
         .auto-style9 {
             height: 42px;
             width: 346px;
         }
+            
+        .reg_p {
+            color: #313238;
+            font-family: SignPainter-HouseScript;
+            font-size: 25px;          
+            }
+            
+        .main_p {
+            color: #313238;
+            font-family: SignPainter-HouseScript;
+            font-size: 40px;          
+         }
+            
+            
+        #FNametxt {
+                height: 20px;
+                border: 1.5px solid #26b7ff;
+                -moz-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                -webkit-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+        }
+            
+         
+        #LNametxt {
+                height: 20px;
+                border: 1.5px solid #26b7ff;
+                -moz-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                -webkit-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+        } 
+            
+        #YOBtxt {
+                height: 20px;
+                border: 1.5px solid #26b7ff;
+                -moz-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                -webkit-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+        }
+            
+        
+        #Emailtxt {
+                height: 20px;
+                border: 1.5px solid #26b7ff;
+                -moz-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                -webkit-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+        }
+            
+        #Passtxt, #Passtxt2{
+                height: 20px;
+                border: 1.5px solid #26b7ff;
+                -moz-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                -webkit-border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+                border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+        }    
+            
+        #Registerbttn, #CancelBttn {
+             background-color: white; 
+             border: 1.5px solid #26b7ff;
+             color: #26b7ff;
+             padding: 15px 32px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 25px;
+             font-family : SignPainter-HouseScript
+         }
+        
+            
+            #Registerbttn:hover, #CancelBttn:hover {
+             background-color: #26b7ff; 
+             border: 1.5px solid #26b7ff;
+             color: white;
+             padding: 15px 32px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 25px;
+             font-family : SignPainter-HouseScript;
+         }
     </style>
 </head>
 <body>
@@ -43,27 +124,27 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style3">
-                    <asp:ImageButton ID="HomePageBttn" runat="server" CausesValidation="False" Height="100px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" ValidateRequestMode="Disabled" Width="150px" />
+                    <asp:ImageButton ID="HomePageBttn" runat="server" CausesValidation="False" Height="100px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.PNG" OnClick="HomePageBttn_Click" ValidateRequestMode="Disabled" Width="150px" />
                 </td>
-                <td class="auto-style3">Enter the following:</td>
+                <td class="reg_p">Enter the following:</td>
                 <td class="auto-style7">
-                    <h1 class="auto-style4">O-Life Registration</h1>
+                    <h1 class="main_p">O-Life Registration</h1>
                 </td>
                 <td class="auto-style3">&nbsp;</td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td class="auto-style5">First Name</td>
+                <td class="reg_p">First Name</td>
                 <td class="auto-style8">
                     <asp:TextBox ID="FNametxt" runat="server" Width="300px"></asp:TextBox>
-&nbsp;&nbsp; </td>
+&nbsp;&nbsp;   </td>
                 <td>&nbsp; <strong>
                     <asp:RequiredFieldValidator ID="FNameValid" runat="server" ControlToValidate="FNametxt" ErrorMessage="Please Enter Your First Name" ForeColor="Red"></asp:RequiredFieldValidator>
                     </strong></td>
             </tr>
             <tr>
-                <td class="auto-style2"></td>
-                <td class="auto-style6">Last Name</td>
+                <td class="reg_p"></td>
+                <td class="reg_p">Last Name</td>
                 <td class="auto-style9">
                     <asp:TextBox ID="LNametxt" runat="server" Width="300px"></asp:TextBox>
                 </td>
@@ -73,7 +154,7 @@
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td class="auto-style5">Year of Birth</td>
+                <td class="reg_p">Year of Birth</td>
                 <td class="auto-style8">
                     <asp:TextBox ID="YOBtxt" runat="server" Width="300px"></asp:TextBox>
                 </td>
@@ -84,7 +165,7 @@
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td class="auto-style5">Email</td>
+                <td class="reg_p">Email</td>
                 <td class="auto-style8">
                     <asp:TextBox ID="Emailtxt" runat="server" Width="300px"></asp:TextBox>
                 </td>
@@ -96,7 +177,7 @@
             </tr>
             <tr>
                 <td class="auto-style2"></td>
-                <td class="auto-style6">Password</td>
+                <td class="reg_p">Password</td>
                 <td class="auto-style9">
                     <asp:TextBox ID="Passtxt" runat="server" TextMode="Password" Width="300px"></asp:TextBox>
                 </td>
@@ -106,7 +187,7 @@
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td class="auto-style5">Re-Enter Password</td>
+                <td class="reg_p">Re-Enter Password</td>
                 <td class="auto-style8">
                     <asp:TextBox ID="Passtxt2" runat="server"></asp:TextBox>
                 </td>

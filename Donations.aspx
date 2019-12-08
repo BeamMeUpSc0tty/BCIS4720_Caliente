@@ -112,7 +112,7 @@ body {
     width: 33%;
     margin: 0em auto;
     padding: 53px 46px 60px;
-    background: #53a4fe ;
+    background: #26b7ff;
 }
 h1.header-w3ls {
     text-align: center;
@@ -464,20 +464,27 @@ select.form-control, .form-left-to-w3l input[type="text"], .form-right-to-w3ls i
     margin: 0px 0px 24px;
 }
 }
- 
+        
             
-    </style>
+</style>
          
 	<!--//style sheet end here-->
 	<link href="//fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet">
 </head>
 
 <body>
-	<h1 class="header-w3ls">
-            
-        <img src="Pictures/Logo.PNG" style="height:100px;width:150px;">
-		Donation Form </h1>
-
+        
+    <form id="form1" runat="server" style="margin-top:10px; margin-left:10px;">
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style3">
+                    <asp:ImageButton ID="HomeBttn" runat="server" CausesValidation="False" Height="120px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.PNG" OnClick="HomeBttn_Click" ValidateRequestMode="Disabled" Width="170px" />
+                </td>   
+            </tr>
+           </table>
+     </form>
+        
+    <h1 class="header-w3ls"> DONATION FORM </h1>
 
 	<div class="Donation-main-w3ls">
 		<form action="#" method="post">

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +12,11 @@ namespace BCIS4720
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void HomeBttn_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("Default.aspx");
         }
     }
 }
