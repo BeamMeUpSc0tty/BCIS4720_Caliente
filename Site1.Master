@@ -336,8 +336,8 @@
   }
 }
         .auto-style3 {
-            width: 256px;
-            height: 199px;
+            width: 162px;
+            height: 144px;
         }
         .auto-style4 {
             color: white;
@@ -397,8 +397,8 @@
         
         <div id="sidebar-left">
             
-            <div id = "sid1"> <p class="auto-style5"> Mission Statement<asp:Image ID="Image1" runat="server" Height="198px" ImageUrl="~/Pictures/5deca763eb0ef.png" Width="214px" />
-&nbsp;</p>
+            <div id = "sid1"> <p class="auto-style5"> Mission Statement&nbsp;<asp:Image ID="Image1" runat="server" Height="143px" ImageUrl="~/Pictures/5deca763eb0ef.png" Width="164px" />
+                </p>
                 <p class="auto-style4"> &nbsp;</p> </div>
             <div id = "sid2"> <p class="auto-style5"> Why do We Care ?  
                 <img alt="Image result for life below water" class="auto-style3" src="https://i.ytimg.com/vi/pBn8ZCQvFoo/maxresdefault.jpg" /></p>
