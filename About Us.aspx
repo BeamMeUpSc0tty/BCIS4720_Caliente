@@ -10,27 +10,23 @@
             width: 101%;
             height: 1089px;
         }
-        .auto-style2 {
-            width: 94px;
-            background-color: #FFFFFF;
-        }
         .auto-style3 {
-            width: 976px;
+            width: 972px;
             height: 36px;
         }
         .auto-style5 {
-            width: 976px;
+            width: 972px;
             text-align: center;
-            height: 183px;
+            height: 199px;
             background-color: #0099CC;
         }
         .auto-style7 {
-            width: 94px;
+            width: 139px;
             height: 36px;
             background-color: #FFFFFF;
         }
         .auto-style9 {
-            width: 976px;
+            width: 972px;
             background-color: #0099CC;
         }
         .newStyle1 {
@@ -42,14 +38,16 @@
         }
         .auto-style13 {
             height: 36px;
+            width: 128px;
         }
         .auto-style14 {
-            width: 94px;
-            height: 183px;
+            width: 139px;
+            height: 199px;
             background-color: #FFFFFF;
         }
         .auto-style15 {
-            height: 183px;
+            height: 199px;
+            width: 128px;
         }
         .newStyle2 {
             font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -65,22 +63,13 @@
             font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         }
         .auto-style17 {
-            width: 976px;
-            height: 197px;
+            width: 972px;
+            height: 344px;
             background-color: #FFFFFF;
         }
         .newStyle4 {
             font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
             font-size: x-large;
-        }
-        .auto-style18 {
-            width: 94px;
-            height: 197px;
-            background-color: #0099CC;
-        }
-        .auto-style19 {
-            height: 197px;
-            background-color: #0099CC;
         }
         .auto-style20 {
             font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -100,20 +89,11 @@
             color: #FFFFFF;
             background-color: #3366CC;
         }
-        .auto-style24 {
-            width: 94px;
-            height: 56px;
-            background-color: #FFFFFF;
-        }
         .auto-style25 {
-            width: 976px;
+            width: 972px;
             height: 56px;
             text-align: center;
             background-color: #0099CC;
-        }
-        .auto-style26 {
-            height: 56px;
-            background-color: #FFFFFF;
         }
         .newStyle6 {
             font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -189,10 +169,41 @@
             width: 352px;
             height: 174px;
         }
+        .auto-style35 {
+            margin-right: 0px;
+        }
+        .auto-style36 {
+            width: 128px;
+            height: 344px;
+            background-color: #0099CC;
+        }
+        .auto-style37 {
+            width: 128px;
+            height: 56px;
+            background-color: #FFFFFF;
+        }
+        .auto-style38 {
+            width: 128px;
+            background-color: #FFFFFF;
+        }
+        .auto-style39 {
+            width: 139px;
+            height: 344px;
+            background-color: #0099CC;
+        }
+        .auto-style40 {
+            width: 139px;
+            height: 56px;
+            background-color: #FFFFFF;
+        }
+        .auto-style41 {
+            width: 139px;
+            background-color: #FFFFFF;
+        }
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" class="auto-style35">
         <div>
             <table cellpadding="0" cellspacing="0" class="auto-style1">
                 <tr>
@@ -214,11 +225,13 @@
                         </strong>
                         <br />
                         <img alt="" class="auto-style30" src="Pictures/37072999015_43c1dcb5ed_o%20adjusted.jpg" /><br />
+                        <br />
+                        <br />
                     </td>
                     <td class="auto-style15"></td>
                 </tr>
                 <tr>
-                    <td class="auto-style18">&nbsp;</td>
+                    <td class="auto-style39"></td>
                     <td class="auto-style17"><span class="auto-style20">Our Team</span><br />
                         <br />
                         <span class="newStyle5"><span class="auto-style23">O-Life team members are all volunteers </span>
@@ -229,17 +242,18 @@
                         <br />
                         <br />
                         <br />
-                        <span class="auto-style10">Scott Henkel</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Welda Igouwe</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Monica Ngwira</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Sadaf Riaz</span><br />
-                        <strong><span class="auto-style22">Head Coordinator&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Education Supervisor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Field Engineer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Operations Manager</span><br class="auto-style22" />
+                        <span class="auto-style10">Scott Henkel</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Welda Igouwe</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Monica Ngwira</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Sadaf Riaz</span><br />
+                        <strong><span class="auto-style22">Head Coordinator&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Education Supervisor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Field Engineer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Operations Manager</span><br class="auto-style22" />
+                        <br />
                         <br />
                         <br />
                         <br />
                         <br />
                         </strong></td>
-                    <td class="auto-style19"></td>
+                    <td class="auto-style36"></td>
                 </tr>
                 <tr>
-                    <td class="auto-style24"></td>
+                    <td class="auto-style40"></td>
                     <td class="auto-style25"><span class="newStyle11">Mission Statement </span>
                         <br />
                         <br />
@@ -258,12 +272,14 @@
                         </span>
                         <br />
                         <br />
+                        <br />
                     </td>
-                    <td class="auto-style26"></td>
+                    <td class="auto-style37"></td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style41">&nbsp;</td>
                     <td class="auto-style9" style="background-image: url('Pictures/matt-hardy-562566-unsplash-1920x960.jpg'); background-position: -20px -390px"><span class="newStyle6">Careers</span><span class="newStyle1">
+                        <br />
                         <br />
                         </span>
                         <br />
@@ -282,8 +298,10 @@
                         <br />
                         <br />
                         <br />
+                        <br />
+                        <br />
                         </span></td>
-                    <td class="auto-style27">&nbsp;</td>
+                    <td class="auto-style38">&nbsp;</td>
                 </tr>
             </table>
         </div>
