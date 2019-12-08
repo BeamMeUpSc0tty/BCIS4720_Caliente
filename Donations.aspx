@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Donations.aspx.cs" Inherits="BCIS4720.Donations" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Donations.aspx.cs" Inherits="BCIS4720.Donations" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -465,6 +465,9 @@ select.form-control, .form-left-to-w3l input[type="text"], .form-right-to-w3ls i
 }
 }
         
+a {
+  color: white;          
+}  
             
 </style>
          
@@ -478,7 +481,7 @@ select.form-control, .form-left-to-w3l input[type="text"], .form-right-to-w3ls i
         <table class="auto-style1">
             <tr>
                 <td class="auto-style3">
-                    <asp:ImageButton ID="HomeBttn" runat="server" CausesValidation="False" Height="120px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomeBttn_Click" ValidateRequestMode="Disabled" Width="170px" />
+                    <asp:ImageButton ID="HomeBttn" runat="server" CausesValidation="False" Height="120px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.PNG" OnClick="HomeBttn_Click" ValidateRequestMode="Disabled" Width="170px" />
                 </td>   
             </tr>
            </table>
@@ -547,6 +550,7 @@ select.form-control, .form-left-to-w3l input[type="text"], .form-right-to-w3ls i
 												</select>
 				</div>
 			</div>
+                
 			<div class="main">
 				<div class="form-right-to-w3ls">
 					<select class="form-control buttom">
@@ -570,7 +574,80 @@ select.form-control, .form-left-to-w3l input[type="text"], .form-right-to-w3ls i
 				
 												</select>
 				</div>
+                    
+                    
 			</div>
+                
+            <div class="main"> 
+                  <div class="form-body">
+    <!-- Card Number -->
+                        
+    <div class="form-left-to-w3l">
+
+        <input type="text" class="card-number" placeholder="Card Number">
+        <div class="clear"></div>
+     </div>                    
+   
+ 
+    <!-- Date Field -->
+    <div class="date-field">
+      <div class="month">
+        <select class="form-control buttom">
+          <option value="january">January</option>
+          <option value="february">February</option>
+          <option value="march">March</option>
+          <option value="april">April</option>
+          <option value="may">May</option>
+          <option value="june">June</option>
+          <option value="july">July</option>
+          <option value="august">August</option>
+          <option value="september">September</option>
+          <option value="october">October</option>
+          <option value="november">November</option>
+          <option value="december">December</option>
+        </select>
+      </div>
+      <div class="year">
+        <select class="form-control buttom">
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+        </select>
+      </div>
+    </div>
+ 
+    <!-- Card Verification Field -->
+    <div class="card-verification">
+     
+                            
+                            
+     <div class="form-left-to-w3l">
+        <input type="text" placeholder="CVV">
+     </div>
+                            
+                            
+                            
+      <div class="cvv-details">
+        <p>3 or 4 digits usually found <br> on the signature strip</p>
+      </div>
+    </div>
+ 
+    <!-- Buttons -->
+                        
+                        
+    <div class="btnn">
+        <button type="submit" class="proceed-btn"><a href="#">Proceed</a> </button>
+        <button type="submit" class="paypal-btn"><a href="#">Pay With </a> </button>
+    </div>                   
+ 
+  </div>
+            </div>
 			<div class="clear"></div>
 
 			<div class="clear"></div>
