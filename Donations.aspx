@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Donations.aspx.cs" Inherits="BCIS4720.Donations" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Donations.aspx.cs" Inherits="BCIS4720.Donations" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -195,9 +195,10 @@ textarea{
 :-moz-placeholder { /* Firefox 18- */
     color: #000;
 }
-.btnn{text-align:center;
+.btnn {text-align:center;
 box-sizing: border-box;}
-button[type=submit]{
+            
+button[type=submit], #Button1, #Button2{
      width:100%;
      background:#000;
      outline:none;
@@ -215,8 +216,11 @@ button[type=submit]{
     -moz-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
-button:hover{color:#000;
+button:hover, #Button1:hover, #Button2:hover {color:#000;
      background:#fff;
+     /* text-color : #26b7ff; */
+     color : #26b7ff;
+     
     
             }
             
@@ -465,9 +469,10 @@ select.form-control, .form-left-to-w3l input[type="text"], .form-right-to-w3ls i
 }
 }
         
-a {
+/ * a {
   color: white;          
-}  
+}  */
+        
             
 </style>
          
@@ -481,11 +486,14 @@ a {
         <table class="auto-style1">
             <tr>
                 <td class="auto-style3">
-                    <asp:ImageButton ID="HomeBttn" runat="server" CausesValidation="False" Height="90px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomeBttn_Click" ValidateRequestMode="Disabled" Width="125px" />
+                    <!--asp:ImageButton ID="HomeBttn" runat="server" CausesValidation="False" Height="90px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomeBttn_Click" ValidateRequestMode="Disabled" Width="125px" /-->
+                    <asp:ImageButton ID="HomeBttn" runat="server" CausesValidation="False" Height="120px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomeBttn_Click" ValidateRequestMode="Disabled" Width="170px" />
                 </td>   
             </tr>
-           </table>
-        
+           </table> 
+    </form>
+    
+    <form id="form2" runat="server">
     <h1 class="header-w3ls"> DONATION FORM </h1>
 
 	<div class="Donation-main-w3ls">
@@ -546,7 +554,7 @@ a {
 													<option value="category3">Canada</option>
 													<option value="category3">Srilanka</option>
 												</select>
-				</div>
+				</div> 
 			</div>
                 
 			<div class="main">
@@ -639,12 +647,7 @@ a {
     </div>
  
     <!-- Buttons -->
-                        
-                        
-    <div class="btnn">
-        <button type="submit" class="proceed-btn"><a href="#">Proceed</a> </button>
-        <button type="submit" class="paypal-btn"><a href="#">Pay With </a> </button>
-    </div>                   
+                                          
  
   </div>
             </div>
@@ -657,9 +660,9 @@ a {
 			</div>
 
 			<div class="btnn">
-				<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Donate" Width="719px" />
+				<asp:Button ID="Button1"  runat="server" OnClick="Button1_Click" Text="Donate" />
                 <br />
-                <asp:Button ID="Button2" runat="server" CausesValidation="False" OnClick="Button2_Click" Text="Button" Width="718px" />
+                <asp:Button ID="Button2" runat="server" CausesValidation="False" OnClick="Button2_Click" Text="Cancel"/>
                 <br>
 			</div>
 
