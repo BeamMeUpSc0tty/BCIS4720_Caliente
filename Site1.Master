@@ -217,7 +217,7 @@
 }
 .footer-links a
 {
-  color:#737373
+  color:#26b7ff;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -338,6 +338,7 @@
         .auto-style3 {
             width: 162px;
             height: 144px;
+            margin-left: 25px;
         }
         .auto-style4 {
             color: white;
@@ -345,7 +346,19 @@
             font-size: 40px;
             margin-top: 5px;
             text-align: center;
+            
         }
+            
+            
+        .style_photo {
+            width: 175px;
+            height: 144px;
+            margin-top:10px;
+            margin-left: 25px;
+        
+            }
+            
+         
         .auto-style5 {
             color: white;
             font-family: SignPainter-HouseScript;
@@ -397,12 +410,12 @@
         
         <div id="sidebar-left">
             
-            <div id = "sid1"> <p class="auto-style5"> Mission Statement&nbsp;<asp:Image ID="Image1" runat="server" Height="143px" ImageUrl="~/Pictures/5deca763eb0ef.png" Width="164px" />
+            <div id = "sid1"> <p class="auto-style5"> Mission Statement&nbsp;<asp:Image ID="Image1" runat="server" Height="143px" ImageUrl="~/Pictures/5deca763eb0ef.png" Width="164px" Style="margin-left:25px;" />
                 </p>
                 <p class="auto-style4"> &nbsp;</p> </div>
             <div id = "sid2"> <p class="auto-style5"> Why do We Care ?  
-                <img alt="Image result for life below water" class="auto-style3" src="https://i.ytimg.com/vi/pBn8ZCQvFoo/maxresdefault.jpg" /></p>
-                <p class="auto-style4"> &nbsp;</p> </div>
+                <img alt="Image result for life below water" class="style_photo" src="https://i.ytimg.com/vi/pBn8ZCQvFoo/maxresdefault.jpg" /></p>
+                <p class="auto-style5"> &nbsp;</p> </div>
         
         </div>
         <div id="main">
@@ -445,7 +458,7 @@
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by 
-             <a href="site1.
+             <a  href="Default.aspx">O-life</a>
             </p>
          </div>
 
