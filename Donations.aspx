@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Donations.aspx.cs" Inherits="BCIS4720.Donations" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Donations.aspx.cs" Inherits="BCIS4720.Donations" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -482,18 +482,16 @@ select.form-control, .form-left-to-w3l input[type="text"], .form-right-to-w3ls i
 
 <body>
         
-    <form id="form1" runat="server" style="margin-top:10px; margin-left:10px;">
+
+    
+    <form id="form2" runat="server">
         <table class="auto-style1">
             <tr>
                 <td class="auto-style3">
-                    <!--asp:ImageButton ID="HomeBttn" runat="server" CausesValidation="False" Height="90px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomeBttn_Click" ValidateRequestMode="Disabled" Width="125px" /-->
                     <asp:ImageButton ID="HomeBttn" runat="server" CausesValidation="False" Height="120px" ImageAlign="Left" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomeBttn_Click" ValidateRequestMode="Disabled" Width="170px" />
                 </td>   
             </tr>
            </table> 
-    </form>
-    
-    <form id="form2" runat="server">
     <h1 class="header-w3ls"> DONATION FORM </h1>
 
 	<div class="Donation-main-w3ls">

@@ -22,6 +22,7 @@
         .auto-style9 {
             width: 972px;
             background-color: #0099CC;
+            text-align: center;
         }
         .newStyle1 {
             font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -48,7 +49,7 @@
         }
         .auto-style16 {
             font-family: SignPainter-HouseScript;
-            font-size: 30px;
+            font-size: 40px;
             color: white;
         }
         .newStyle3 {
@@ -216,6 +217,17 @@
             border-collapse: collapse;
         }
             
+        .auto-style43 {
+            font-size: large;
+            font-family: ;
+        }
+        .auto-style44 {
+            font-family: SignPainter-HouseScript;
+            font-size: large;
+            background : none;
+            color : #26b7ff;
+        }
+            
     </style>
 </head>
 <body>
@@ -231,9 +243,9 @@
                 </tr>
                 <tr>
                     <td class="auto-style14"></td>
-                    <td class="auto-style5" style="background-position: -11px -521px; background-image: none;"><span class="auto-style16">Business Model</span><br />
+                    <td class="auto-style5" style="background-position: -11px -521px; background-image: none;"><span class="auto-style16"><strong>Business Model</strong></span><br />
                         <br />
-                        <strong class="newStyle3">We are a new non profit organizaion and focused on preserving wildlife from current day issues that flood our oceanic ecosystem. We collect donations to help us fund our ocean cleanup and reduce oceanic pollution.
+                        <strong class="auto-style43">We are a new non profit organizaion and focused on preserving wildlife from current day issues that flood our oceanic ecosystem. We collect donations to help us fund our ocean cleanup and reduce oceanic pollution.
                         <br />
                         O-Life intends to maintain an online presence and seek opportunities for life below water through research, education and informative discussions. </strong>
                         <br />
@@ -250,33 +262,38 @@
                 </tr>
                 <tr>
                     <td class="auto-style39"></td>
-                    <td class="auto-style17"><span class="auto-style20">Our Team</span><br />
+                    <td class="auto-style17"><span class="auto-style20"><strong>Our Team</strong></span><strong><br />
+                        </strong>
                         <br />
-                        <span class="newStyle5"><span class="auto-style23">O-Life team members are all volunteers </span>
-                        <br class="auto-style23" />
-                        <span class="auto-style23">and no funds will be distributed to them </span>
-                        <br class="auto-style23" />
-                        <span class="auto-style23">as all proceeds will be funneled into our mission statement.</span></span><br />
+                        <span class="newStyle5"><span class="auto-style44"><strong>O-Life team members are all volunteers </strong> </span>
+                        <strong>
+                        <br class="auto-style44" />
+                        </strong>
+                        <span class="auto-style44"><strong>and no funds will be distributed to them </strong> </span>
+                        <strong>
+                        <br class="auto-style44" />
+                        </strong>
+                        <span class="auto-style44"><strong>as all proceeds will be funneled into our mission statement.</strong></span></span><br />
                         <br />
                         <br />
                         <br />
                         <table cellpadding="0" class="auto-style42">
                             <tr>
                                 <td>
-                                    <asp:ImageButton ID="ImageButton2" runat="server" Height="400px" ImageUrl="~/Pictures/scott.jpg" OnClick="ImageButton2_Click" />
+                                    <asp:ImageButton ID="ImageButton2" runat="server" Height="400px" ImageUrl="~/Pictures/scott.jpg" OnClick="ImageButton2_Click" Width="300px" />
                                 </td>
                                 <td>
-                                    <asp:ImageButton ID="ImageButton1" runat="server" Height="400px" ImageUrl="~/Pictures/Welda.jpg" OnClick="ImageButton1_Click" />
+                                    <asp:ImageButton ID="ImageButton1" runat="server" Height="400px" ImageUrl="~/Pictures/Welda.jpg" OnClick="ImageButton1_Click" Width="300px" />
                                 </td>
                                 <td>
-                                    <asp:ImageButton ID="ImageButton3" runat="server" OnClick="ImageButton3_Click" />
+                                    <asp:ImageButton ID="ImageButton3" runat="server" Height="400px" ImageUrl="~/Pictures/Mon[716].jpg" OnClick="ImageButton3_Click" Width="300px" />
                                 </td>
                             </tr>
                             <tr>
                                 <td>
                         <span class="auto-style10"><a href="https://www.linkedin.com/in/scott-henkel/">Scott Henkel</a></span></td>
                                 <td><span class="auto-style10"><a href="https://www.linkedin.com/in/welda-z-5b81a341/">Welda Igouwe</a></span></td>
-                                <td><span class="auto-style10">Monica Ngwira</span></td>
+                                <td><span class="auto-style10"><a href="https://www.linkedin.com/in/monica-ngwira-545672199/">Monica Ngwira</a></span></td>
                             </tr>
                             <tr>
                                 <td>

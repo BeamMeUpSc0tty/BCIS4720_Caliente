@@ -12,59 +12,23 @@
         }
         .auto-style3 {
             text-align: center;
-            width: 5083px;
-        }
-        .auto-style4 {
-            text-align: left;
-            font-size: medium;
-            height: 40px;
-            width: 579px;
-        }
-        .auto-style2 {
-            text-align: center;
-            font-size: medium;
-            height: 40px;
+            width: 1351px;
         }
         .float-lt{float:left;}
-        .auto-style5 {
-            width: 250px;
-            text-align: center;
-        }
-        .auto-style6 {
-            text-align: center;
-            font-size: medium;
-            height: 40px;
-            width: 251px;
-        }
-        .auto-style7 {
-            font-size: medium;
-            height: 40px;
-        }
-        .auto-style8 {
-            width: 96%;
-        }
-        .auto-style9 {
-            text-align: left;
-            width: 5083px;
-        }
-        .auto-style10 {
-            width: 552px;
-        }
-        .auto-style11 {
-            width: 302px;
-        }
         .auto-style12 {
-            width: 302px;
+            width: 336px;
             height: 62px;
+            background-color: #FFFFFF;
         }
         .auto-style13 {
             text-align: center;
-            width: 5083px;
+            width: 1351px;
             height: 62px;
         }
         .auto-style14 {
             width: 552px;
             height: 62px;
+            background-color: #FFFFFF;
         }
         .newStyle1 {
             font-family: Algerian;
@@ -76,25 +40,27 @@
             font-size: large;
         }
         .auto-style15 {
-            width: 375px;
-            height: 269px;
+            width: 496px;
+            height: 381px;
         }
         .auto-style16 {
-            width: 367px;
-            height: 263px;
+            width: 590px;
+            height: 389px;
         }
         .auto-style17 {
-            width: 302px;
+            width: 336px;
             height: 603px;
+            background-color: #27B7FE;
         }
         .auto-style18 {
             text-align: center;
-            width: 5083px;
+            width: 1351px;
             height: 603px;
         }
         .auto-style19 {
             width: 552px;
             height: 603px;
+            background-color: #27B7FE;
         }
         .newStyle3 {
             font-size: xx-large;
@@ -104,55 +70,120 @@
         .auto-style20 {
             background-color: #000000;
         }
+        .auto-style21 {
+            text-align: center;
+            width: 455px;
+        }
+        .auto-style22 {
+            text-align: right;
+            width: 750px;
+        }
+        .auto-style24 {
+            width: 739px;
+        }
+        .auto-style25 {
+            width: 1007px;
+            font-size: 35pt;
+        }
+        .auto-style26 {
+            width: 113%;
+        }
+        .auto-style27 {
+            text-align: center;
+            width: 750px;
+            height: 108px;
+        }
+        .auto-style28 {
+            width: 1007px;
+            height: 108px;
+        }
+        .auto-style29 {
+            width: 739px;
+            height: 108px;
+        }
+        .auto-style30 {
+            text-align: center;
+            height: 108px;
+            width: 455px;
+        }
+        .auto-style31 {
+            font-size: x-large;
+        }
+        .auto-style33 {
+            font-size: 35px;
+        }
+        .auto-style34 {
+            width: 552px;
+            background-color: #27B7FE;
+        }
+        .auto-style35 {
+            width: 336px;
+            background-color: #27B7FE;
+        }
         </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
+                        <asp:ImageButton ID="HomePageBttn" runat="server" Height="90px" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" Width="125px" />
         </div>
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style12">
-                        <asp:ImageButton ID="HomePageBttn" runat="server" Height="90px" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" Width="125px" />
-                    </td>
-                    <td class="auto-style13"></td>
-                    <td class="auto-style14">
-                        <table class="auto-style8">
+                        &nbsp;</td>
+                    <td class="auto-style13">
+                        <table cellpadding="0" cellspacing="0" class="auto-style26">
                             <tr>
-                                <td class="auto-style4">
-                                    <asp:Label ID="Welcomelbl" runat="server"></asp:Label>
-                                </td>
-                                <td class="auto-style5">
+                                <td class="auto-style27" style="border-style: none solid none none; border-color: #27B7FE">
+                                    <asp:Label ID="Welcomelbl" runat="server" CssClass="auto-style31"></asp:Label>
+                                &nbsp;&nbsp;&nbsp;
+                                    <br />
+                                    <br />
+                                     </td>
+                                <td class="auto-style28" style="border-style: none solid none solid; border-color: #27B7FE">
                                     <asp:ImageButton ID="LogoffBttn" runat="server" Height="60px" ImageUrl="~/Pictures/Logoff.jpg" OnClick="LogoffBttn_Click" Width="60px" />
-                                    <br />
-                                    <p class="auto-style2"> Logout </p>
-                                </td>
-                                <td>&nbsp;</td>
-                                <td class="auto-style6">
+                                    </td>
+                                <td class="auto-style29" style="border-style: none solid none solid; border-color: #27B7FE">
                                     <asp:ImageButton ID="Donatebttn" runat="server" Height="60px" ImageUrl="~/Pictures/Paypal.png" OnClick="Donatebttn_Click" Width="60px" />
-                                    <br />
-                                     <p class="auto-style7"> Donate </p>
+                                    </td>
+                                <td class="auto-style30" style="border-style: none none none solid; border-color: #27B7FE">
+                                    <asp:ImageButton ID="AboutUsBttn" runat="server" Height="60px" ImageUrl="~/Pictures/About-Us-Button.png" Width="291px" OnClick="AboutUsBttn_Click" />
                                 </td>
-                                <td class="auto-style2">
-                                    <asp:ImageButton ID="AboutUsBttn" runat="server" Height="60px" ImageUrl="~/Pictures/About-Us-Button.png" Width="200px" OnClick="AboutUsBttn_Click" />
+                            </tr>
+                            <tr>
+                                <td class="auto-style22" style="border-style: none; border-color: #FFFFFF">&nbsp;</td>
+                                <td class="auto-style25" style="border-style: none; border-color: #FFFFFF">
+                                    <p class="auto-style33"> Logout</p>
                                 </td>
+                                <td class="auto-style24" style="border-style: none; border-color: #FFFFFF">
+                                     <p> <span class="auto-style33">Donate</span><strong> </strong> </p>
+                                </td>
+                                <td class="auto-style21" style="border-style: none; border-color: #FFFFFF">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style22" style="border-style: none; border-color: #FFFFFF">&nbsp;</td>
+                                <td class="auto-style25" style="border-style: none; border-color: #FFFFFF">&nbsp;</td>
+                                <td class="auto-style24" style="border-style: none; border-color: #FFFFFF">&nbsp;</td>
+                                <td class="auto-style21" style="border-style: none; border-color: #FFFFFF">&nbsp;</td>
                             </tr>
                         </table>
                     </td>
+                    <td class="auto-style14">
+                        &nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style11">
+                    <td class="auto-style35">
                         &nbsp;</td>
-                    <td class="auto-style9"><span class="newStyle1"><strong>Get More Involved!</strong><br />
+                    <td class="auto-style3"><span class="newStyle1"><strong>Get More Involved!</strong><br />
                         </span>
                         <br />
                         <br />
                         <br />
-                        <img alt="" class="auto-style15" src="Pictures/coastal-cleanup-2.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img alt="" class="auto-style15" src="Pictures/coastal-cleanup-2.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
                         <img alt="" class="auto-style16" src="Pictures/volunteers-cleaning-up-ocean-underwater.jpg" /><br />
                         <br />
-                        <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="newStyle2" NavigateUrl="~/Events.aspx">Events</asp:HyperLink>
+                        <strong>&nbsp;<asp:HyperLink ID="HyperLink1" runat="server" CssClass="newStyle2" NavigateUrl="~/Events.aspx">Events</asp:HyperLink>
                         </strong>
                         <br />
                         <br />
@@ -164,7 +195,7 @@
                         <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>
                         <br />
                     </td>
-                    <td class="auto-style10">
+                    <td class="auto-style34">
                         &nbsp;</td>
                 </tr>
                 <tr>
@@ -177,12 +208,15 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style11">
+                    <td class="auto-style35">
                         &nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style10">
+                    <td class="auto-style3">Copyright &copy; 2019 All Rights Reserved by 
+             <a  href="Default.aspx">O-life</a>
+            </td>
+                    <td class="auto-style34">
                         &nbsp;</td>
                 </tr>
+
             </table>
 
     </form>

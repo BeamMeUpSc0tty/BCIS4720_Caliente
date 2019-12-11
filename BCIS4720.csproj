@@ -86,12 +86,15 @@
     <Content Include="Pictures\Logo.jpg" />
     <Content Include="Pictures\Logoff.jpg" />
     <Content Include="Pictures\matt-hardy-562566-unsplash-1920x960.jpg" />
+    <Content Include="Pictures\Mon[716].jpg" />
     <Content Include="Pictures\oceanwave adj.jpg" />
     <Content Include="Pictures\Paypal.png" />
     <Content Include="Pictures\Register.jpg" />
     <Content Include="Pictures\scott.jpg" />
     <Content Include="Pictures\volunteers-cleaning-up-ocean-underwater.jpg" />
-    <Content Include="Pictures\Welda.jpg" />
+    <Content Include="Pictures\Welda.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Registration.aspx" />
     <Content Include="Success.aspx" />
     <Content Include="Web.config" />

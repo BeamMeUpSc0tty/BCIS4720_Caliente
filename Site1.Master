@@ -335,11 +335,6 @@
     font-weight:600
   }
 }
-        .auto-style3 {
-            width: 162px;
-            height: 144px;
-            margin-left: 25px;
-        }
         .auto-style4 {
             color: white;
             font-family: SignPainter-HouseScript;
