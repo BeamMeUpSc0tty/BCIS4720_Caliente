@@ -263,10 +263,14 @@
                         <table cellpadding="0" class="auto-style42">
                             <tr>
                                 <td>
-                                    <asp:Image ID="Image1" runat="server" Height="400px" ImageUrl="~/Pictures/scott_killme.jpg" Width="300px" />
+                                    <asp:ImageButton ID="ImageButton2" runat="server" Height="400px" ImageUrl="~/Pictures/scott.jpg" OnClick="ImageButton2_Click" />
                                 </td>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
+                                <td>
+                                    <asp:ImageButton ID="ImageButton1" runat="server" Height="400px" ImageUrl="~/Pictures/Welda.jpg" OnClick="ImageButton1_Click" />
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="ImageButton3" runat="server" OnClick="ImageButton3_Click" />
+                                </td>
                             </tr>
                             <tr>
                                 <td>

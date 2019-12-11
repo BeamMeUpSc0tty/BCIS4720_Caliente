@@ -89,8 +89,9 @@
     <Content Include="Pictures\oceanwave adj.jpg" />
     <Content Include="Pictures\Paypal.png" />
     <Content Include="Pictures\Register.jpg" />
-    <Content Include="Pictures\scott_killme.jpg" />
+    <Content Include="Pictures\scott.jpg" />
     <Content Include="Pictures\volunteers-cleaning-up-ocean-underwater.jpg" />
+    <Content Include="Pictures\Welda.jpg" />
     <Content Include="Registration.aspx" />
     <Content Include="Success.aspx" />
     <Content Include="Web.config" />

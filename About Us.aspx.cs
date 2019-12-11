@@ -18,5 +18,20 @@ namespace BCIS4720
         {
             Response.Redirect("Default.aspx");
         }
+
+        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("https://www.linkedin.com/in/scott-henkel/");
+        }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("https://www.linkedin.com/in/welda-z-5b81a341/");
+        }
+
+        protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
+        {
+            //Response.Redirect("");
+        }
     }
 }
