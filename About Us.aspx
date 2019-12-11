@@ -59,6 +59,7 @@
             width: 972px;
             height: 344px;
             background-color: #FFFFFF;
+            text-align: center;
         }
         .newStyle4 {
             font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -210,6 +211,11 @@
         text-decoration: underline;
          }
             
+        .auto-style42 {
+            width: 95%;
+            border-collapse: collapse;
+        }
+            
     </style>
 </head>
 <body>
@@ -254,8 +260,29 @@
                         <br />
                         <br />
                         <br />
-                        <span class="auto-style10"><a href="https://www.linkedin.com/in/scott-henkel/">Scott Henkel</a></span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Welda Igouwe</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style10">Monica Ngwira</span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><br />
-                        <strong><span class="auto-style22">Head Coordinator&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Education Supervisor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Field Engineer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><br class="auto-style22" />
+                        <table cellpadding="0" class="auto-style42">
+                            <tr>
+                                <td>
+                                    <asp:Image ID="Image1" runat="server" Height="400px" ImageUrl="~/Pictures/scott_killme.jpg" Width="300px" />
+                                </td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                        <span class="auto-style10"><a href="https://www.linkedin.com/in/scott-henkel/">Scott Henkel</a></span></td>
+                                <td><span class="auto-style10"><a href="https://www.linkedin.com/in/welda-z-5b81a341/">Welda Igouwe</a></span></td>
+                                <td><span class="auto-style10">Monica Ngwira</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                        <strong><span class="auto-style22">Head Coordinator</span></strong></td>
+                                <td><strong><span class="auto-style22">Education Supervisor</span></strong></td>
+                                <td><strong><span class="auto-style22">Field Engineer</span></strong></td>
+                            </tr>
+                        </table>
+                        <span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><br />
+                        <strong><span class="auto-style22">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><br class="auto-style22" />
                         <br />
                         <br />
                         <br />
