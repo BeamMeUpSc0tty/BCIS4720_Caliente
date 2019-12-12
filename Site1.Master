@@ -375,6 +375,9 @@
                                 <td class="logoImg">
                                     <asp:ImageButton ID="HomePageBttn" runat="server" Height="90px" ImageUrl="~/Pictures/Logo.jpg" OnClick="HomePageBttn_Click" Width="125px"  />
                                 </td>
+                                <td>
+                                    <asp:Label ID="Welcomelbl" runat="server"></asp:Label>
+                                </td>
                                 <td class="nav-center">
                                     <asp:ImageButton ID="LoginBttn" runat="server" Height="40px" ImageUrl="~/Pictures/Login Button.png" Width="40px" OnClick="LoginBttn_Click" />
                                     <p class="auto-style2"> Login </p>

@@ -60,6 +60,15 @@ namespace BCIS4720
         protected global::System.Web.UI.WebControls.ImageButton ImageButton3;
 
         /// <summary>
+        /// ImageButton4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton4;
+
+        /// <summary>
         /// HyperLink1 control.
         /// </summary>
         /// <remarks>

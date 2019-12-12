@@ -33,5 +33,10 @@ namespace BCIS4720
         {
             Response.Redirect("https://www.linkedin.com/in/monica-ngwira-545672199/");
         }
+
+        protected void ImageButton4_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("https://www.linkedin.com/in/sadaf-riaz-b42a67170/");
+        }
     }
 }

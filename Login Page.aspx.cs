@@ -46,7 +46,7 @@ namespace BCIS4720
 
             if (PasswordTXT.Text.Trim() == password)
                 {
-                Session["Username"] = userID;
+                Session["userName"] = userID;
                 Session["userEmail"] = usernameTXT.Text.Trim();
                 Response.Redirect("Success.aspx");
                 }

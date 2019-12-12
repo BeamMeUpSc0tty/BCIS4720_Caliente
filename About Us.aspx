@@ -213,7 +213,7 @@
          }
             
         .auto-style42 {
-            width: 95%;
+            width: 100%;
             border-collapse: collapse;
         }
             
@@ -226,6 +226,10 @@
             font-size: large;
             background : none;
             color : #26b7ff;
+        }
+            
+        .auto-style45 {
+            width: 100%;
         }
             
     </style>
@@ -300,6 +304,20 @@
                         <strong><span class="auto-style22">Head Coordinator</span></strong></td>
                                 <td><strong><span class="auto-style22">Education Supervisor</span></strong></td>
                                 <td><strong><span class="auto-style22">Field Engineer</span></strong></td>
+                            </tr>
+                        </table>
+                        <table class="auto-style45">
+                            <tr>
+                                <td>
+                                    <asp:ImageButton ID="ImageButton4" runat="server" Height="400px" ImageUrl="~/Pictures/75237395_2721091597921922_16466359152017408_o.jpg" OnClick="ImageButton4_Click" Width="300px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                        <span class="auto-style10"><a href="https://www.linkedin.com/in/sadaf-riaz-b42a67170/">Sadaf Riaz</a></span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Advisor</strong></td>
                             </tr>
                         </table>
                         <span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><br />
