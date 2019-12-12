@@ -13,17 +13,9 @@
         .auto-style3 {
             width: 128px;
         }
-        .auto-style4 {
-            width: 421px;
-            height: 300px;
-        }
         .auto-style5 {
-            width: 546px;
-            height: 270px;
-        }
-        .auto-style6 {
-            width: 479px;
-            height: 318px;
+            width: 1107px;
+            height: 416px;
         }
         .newStyle1 {
             font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -34,6 +26,7 @@
             font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
             font-size: xx-large;
             color: #000080;
+            text-align: center;
         }
         .newStyle2 {
             font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -49,12 +42,6 @@
             font-family: Broadway;
             font-size: x-large;
             color: #003366;
-        }
-        .auto-style9 {
-            font-family: Broadway;
-            font-size: x-large;
-            color: #003366;
-            background-color: #FFFF99;
         }
         .auto-style10 {
             color: #003399;
@@ -93,7 +80,34 @@
             text-align: center;
         }
         .auto-style15 {
-            text-align: left;
+            width: 128px;
+            height: 1009px;
+        }
+        .auto-style16 {
+            text-align: center;
+            height: 1009px;
+        }
+        .auto-style17 {
+            height: 1009px;
+        }
+        .auto-style18 {
+            text-align: center;
+            font-size: xx-large;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            color: #000080;
+        }
+        .auto-style20 {
+            font-family: "Cooper Black";
+            font-style: italic;
+            font-weight: bold;
+            font-size: x-large;
+            color: #0033CC;
+        }
+        .auto-style21 {
+            font-family: "Cooper Black";
+            font-style: italic;
+            font-weight: bold;
+            color: #0033CC;
         }
     </style>
 </head>
@@ -105,13 +119,15 @@
                     <td class="auto-style3">
                         <asp:ImageButton ID="ImageButton1" runat="server" Height="90px" ImageUrl="~/Pictures/Logo.jpg" OnClick="ImageButton1_Click" Width="125px" />
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <h1 class="auto-style8"><strong>&nbsp; Events</strong></h1>
+                        </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style14">
-                        <h1 class="auto-style8"><strong>&nbsp; Events</strong></h1>
+                    <td class="auto-style15"></td>
+                    <td class="auto-style16">
+                        <div class="auto-style14">
                         <br />
                         <br />
                         <br />
@@ -122,38 +138,30 @@
                         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <br />
-                        <span class="newStyle7"><strong><span class="auto-style12"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Plastics and trash in the ocean are a major threat to the</em></span><em><br class="auto-style12" />
-                        </em><span class="auto-style12"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; health of wildlife, local economies and people. </em></span><em>
+                        <span class="newStyle7"><strong><span class="auto-style12"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Plastics and trash in the ocean is a major threat to the</em></span><em><br class="auto-style12" />
+                        </em><span class="auto-style12"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; health of the wildlife, economy and people like you. </em></span><em>
                         <br class="auto-style12" />
-                        </em><span class="auto-style12"><em>&nbsp;Help us solve this problem by joining us and volunteer for our </em></span></strong></span><em>
-                        <br class="auto-style13" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="newStyle7"><strong><span class="auto-style12">cleanup event.</span></strong></span></em><br />
+                        </em><span class="auto-style12"><em>&nbsp;Help us solve this problem by joining our team and volunteer for our</em></span></strong> <span class="auto-style12">future</span></span><em><br class="auto-style13" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="newStyle7"><strong><span class="auto-style12">cleanup events.</span></strong></span></em><br />
                         <br />
                         <br />
                         <br />
+                        </div>
                     </td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style17"></td>
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
-                    <td style="background-image: url('Pictures/b90464d27b537e3259c6ca01f0da35eb.jpg')" class="auto-style15"><span class="newStyle2">Volunteer<br />
+                    <td class="auto-style18">Volunteer<br />
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/Pictures/volunteers-cleaning-up-ocean-underwater.jpg" />
                         <br />
+                        <span class="auto-style21"><a href="Registration.aspx">Create an account </a></span>
+                        <br />
+&nbsp;&nbsp;
+                        <asp:Image ID="Image2" runat="server" Height="211px" ImageUrl="~/Pictures/giphy.gif" Width="154px" />
+                        <br />
+                        <span class="auto-style20">If you haven&#39;t already joined us<br />
                         </span>
-                        <br />
-                        <img alt="" class="auto-style4" src="Pictures/78891970-group-of-volunteer-people-smiling-and-holding-charity-banner.jpg" /><strong><br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style9" NavigateUrl="~/Registration.aspx">Create an Account to Volunteer!</asp:HyperLink>
-                        </strong>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-                        <img class="auto-style6" src="Pictures/large_nbJp_5lGwzfjLGSOKCBcBI5dgrlsMlbhL0Pr-L_GLOs.jpg" /><br />
-                        <br />
                         <br />
                     </td>
                     <td>&nbsp;</td>
