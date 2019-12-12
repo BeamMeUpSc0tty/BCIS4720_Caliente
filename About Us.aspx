@@ -228,7 +228,11 @@
             color : #26b7ff;
         }
             
-        </style>
+        .auto-style45 {
+            font-size: 20pt;
+        }
+            
+    </style>
 </head>
 <body>
     <form id="form1" runat="server" class="auto-style35">
@@ -280,13 +284,13 @@
                         <table cellpadding="0" class="auto-style42">
                             <tr>
                                 <td>
-                                    <asp:ImageButton ID="ImageButton2" runat="server" Height="400px" ImageUrl="~/Pictures/scott.jpg" OnClick="ImageButton2_Click" Width="300px" />
+                                    <asp:ImageButton ID="ImageButton2" runat="server" Height="500px" ImageUrl="~/Pictures/scott.jpg" OnClick="ImageButton2_Click" Width="300px" />
                                 </td>
                                 <td>
-                                    <asp:ImageButton ID="ImageButton1" runat="server" Height="400px" ImageUrl="~/Pictures/Welda.jpg" OnClick="ImageButton1_Click" Width="300px" />
+                                    <asp:ImageButton ID="ImageButton1" runat="server" Height="500px" ImageUrl="~/Pictures/Welda.jpg" OnClick="ImageButton1_Click" Width="300px" />
                                 </td>
                                 <td>
-                                    <asp:ImageButton ID="ImageButton3" runat="server" Height="400px" ImageUrl="~/Pictures/Mon[716].jpg" OnClick="ImageButton3_Click" Width="300px" />
+                                    <asp:ImageButton ID="ImageButton3" runat="server" Height="500px" ImageUrl="~/Pictures/Monica.jpg" OnClick="ImageButton3_Click" Width="300px" />
                                 </td>
                             </tr>
                             <tr>
@@ -308,8 +312,8 @@
                         <br />
                         <br />
                         <br />
-                        <br />
                         <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style28" NavigateUrl="~/Registration.aspx">Join our team - Here </asp:HyperLink>
+                        <br />
                         </strong>
                         
                                         
@@ -321,15 +325,18 @@
                 </tr>
                 <tr>
                     <td class="auto-style40"></td>
-                    <td class="auto-style25"><span class="newStyle11">Mission Statement </span>
+                    <td class="auto-style25"><span class="newStyle11">
+                        <br />
+                        Mission Statement </span>
                         <br />
                         <br />
                         <strong><span class="auto-style31"><em>&quot;One Goal, One Ocean&quot; </em>
                         <br />
                         </span></strong><span class="newStyle13">
-                        <br />
+                        <span class="newStyle14"><span class="auto-style33"><span class="newStyle5"><span class="auto-style23"><strong>
+                        <img alt="" class="auto-style34" src="Pictures/54271-8422182.jpg" /></strong></span></span></span></span><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="newStyle14"><span class="auto-style33"><span class="newStyle5"><span class="auto-style23"><strong>
-                        <img alt="" class="auto-style34" src="Pictures/54271-8422182.jpg" /><br />
+                        <br />
                         <br />
                         </strong></span></span>O-Life will become the newest marine wildlife conservation, </span>
                         <br class="auto-style33" />
@@ -350,9 +357,10 @@
                         <br />
                         </span>
                         <br />
-                        <strong><span class="newStyle8"><span class="auto-style29">Join us in sharing knowledge </span>
+                        <span class="newStyle8"><span class="auto-style29"><a class="auto-style45" href="Registration.aspx">Join us</a><strong> in sharing knowledge </strong> </span>
+                        <strong>
                         <br class="auto-style29" />
-                        <span class="auto-style29">on protecting our oceans today and make an impact!</span></span></strong><span class="newStyle7"> <br />
+                        <span class="auto-style29">on protecting our oceans today and make an impact!</span></strong></span><span class="newStyle7"> <br />
                         <br />
                         </span><span class="newStyle1">
                         <br class="auto-style27" />
